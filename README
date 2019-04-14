@@ -1,0 +1,20 @@
+Summary of files in <H2> directory:
+
+*.BS -- linear versions of BrainStorm files left over from the first
+Hitchhiker's game, including some unused but usable ideas
+
+*.TXT -- transcripts of electronic mail with more of the same
+
+*.H1 -- selected ZIL files from the first game, with parts re-arranged
+(I made new ZIL files by merging these with Moonmist files.)
+
+DESIGN.* -- the design notes I made at Bywater's suggestion
+
+REPLY.* -- feedback from other imps on the design notes
+
+H2.ZIL -- "load" file for RMODE ^EG command, omitting parser and other
+stable files
+
+H2C.ZIL -- "load" file for compiling, including all files
+
+ZCOMP.TAILOR -- automagically does the right thing for compiling

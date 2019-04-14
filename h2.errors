@@ -1,0 +1,46 @@
+Release: 184
+     0  Inserting h2.zap.
+    64  Inserting h2dat.zap.
+"h2dat.zap", line 427: 	PLURAL=PLURALBIT
+   -- warning - non-absolute value in equate
+ 20770  Inserting h2pur.zap.
+ 21196  Inserting pstack.zap.
+ 21234  Inserting pmem.zap.
+ 21377  Inserting parser.zap.
+ 27788  Inserting find.zap.
+ 30041  Inserting reds.zap.
+ 36732  Inserting breds.zap.
+ 39028  Inserting top.zap.
+ 40645  Inserting prare.zap.
+ 45004  Inserting qverbs.zap.
+ 47485  Inserting macros.zap.
+ 47583  Inserting misc.zap.
+ 49011  Inserting verbs.zap.
+ 64352  Inserting things.zap.
+ 67828  Inserting places.zap.
+ 69546  Inserting magrathea.zap.
+ 70308  Inserting people.zap.
+ 73289  Inserting global.zap.
+ 74381  Inserting h2str.zap.
+"h2str.zap", line 58: "
+   -- Undefined symbol PLURALBIT in fixup
+   -- Undefined symbol PLURALBIT in fixup
+   -- Undefined symbol PLURALBIT in fixup
+   -- Undefined symbol READ-DEMO in fixup
+   -- Undefined symbol PEOPLE in fixup
+   -- "READ-DEMO" undefined.
+   -- "PEOPLE" undefined.
+   -- "PLURALBIT" undefined.
+Unreferenced string: STR?169
+Unreferenced function: SETUP-ORPHAN-NP
+Unreferenced table: RT?36110
+Unreferenced global: P-DIRECTION
+
+Lexical buffer space allocated:  480120
+Max lexical space allocated at any one time: 48012
+Object buffer space allocated:  80000
+Source bytes read:  388365
+Object bytes written:  79152
+Preload: 20770; 75 objects; 84 globals; 687 words.
+Used 1:32
+Elapsed time 1:54

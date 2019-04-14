@@ -1,0 +1,901 @@
+
+State # 1:
+END-OF-INPUT, VERB, ADV,
+DIR, TOBE, QWORD, CANDO,
+PARTICLE, PREP:  Apply RED-PERS to 0, new token is ?PERS
+NOUN:  Apply RED-PERS to 0, new token is ?PERS
+       Apply RED-ADJ to 0, new token is ADJ*
+ADJ:  -->State 12
+      Apply RED-PERS to 0, new token is ?PERS
+QUANT:  -->State 11
+	Apply RED-PERS to 0, new token is ?PERS
+ASKWORD:  -->State 10
+ARTICLE:  -->State 9
+	  Apply RED-PERS to 0, new token is ?PERS
+QUOTE:  -->State 8
+	Apply RED-PERS to 0, new token is ?PERS
+POSSESSIVE:	-->State 2
+ADJ*:	-->State 3
+NP:	-->State 4
+NPP:	-->State 5
+?PERS:	-->State 6
+SP:	-->State 7
+
+State # 2:
+END-OF-INPUT, NOUN, ADV:  Apply RED-ADJ to 0, new token is ADJ*
+ADJ:  -->State 12
+QUANT:  -->State 11
+ARTICLE:  -->State 9
+QUOTE:  -->State 8
+POSSESSIVE:	-->State 2
+ADJ*:	-->State 103
+NP:	-->State 14
+
+State # 3:
+NOUN:  -->State 19
+
+State # 4:
+ARTICLE, QUOTE,
+END-OF-INPUT, NOUN, ADJ,
+ADV, QUANT, COMMA, PARTICLE,
+PREP:  Apply RED-NPP to 1, new token is NPP
+APOSTR:  -->State 16
+OFWORD:  -->State 15
+
+State # 5:
+COMMA:  -->State 102
+PARTICLE:  -->State 30
+PREP:  -->State 23
+PP:	-->State 22
+
+State # 6:
+END-OF-INPUT, PARTICLE,
+PREP:  Apply DO-ORPHAN-TEST to 0, new token is O?
+TOBE, CANDO:  Apply RED-FCN to 0, new token is ?QW1
+VERB:  Apply RED-CANDO to 0, new token is ?CANDO
+NOUN:  Apply RED-ADJ to 0, new token is ADJ*
+       Apply DO-ORPHAN-TEST to 0, new token is O?
+ADJ:  -->State 12
+      Apply DO-ORPHAN-TEST to 0, new token is O?
+ADV:  Apply RED-CANDO to 0, new token is ?CANDO
+      Apply DO-ORPHAN-TEST to 0, new token is O?
+QUANT:  -->State 11
+	Apply DO-ORPHAN-TEST to 0, new token is O?
+DIR:  -->State 42
+QWORD:  -->State 41
+ARTICLE:  -->State 9
+	  Apply DO-ORPHAN-TEST to 0, new token is O?
+QUOTE:  -->State 8
+	Apply DO-ORPHAN-TEST to 0, new token is O?
+O?:	-->State 35
+POSSESSIVE:	-->State 2
+ADJ*:	-->State 3
+?QW1:	-->State 36
+NP:	-->State 37
+?CANDO:	-->State 38
+VP:	-->State 39
+S:	-->State 40
+
+State # 7:
+END-OF-INPUT:  DONE
+
+State # 8:
+OFWORD, ARTICLE, QUOTE,
+END-OF-INPUT, VERB, NOUN,
+ADJ, ADV, QUANT, MISCWORD,
+TOBE, CANDO, COMMA,
+PARTICLE, PREP, APOSTR:  Apply RED-QUOTE to 1, new token is NP
+
+State # 9:
+END-OF-INPUT, NOUN, ADV:  Apply RED-ADJ to 0, new token is ADJ*
+ADJ:  -->State 12
+QUANT:  -->State 11
+ARTICLE:  -->State 9
+QUOTE:  -->State 8
+POSSESSIVE:	-->State 2
+ADJ*:	-->State 34
+NP:	-->State 14
+
+State # 10:
+NOUN:  Apply RED-ADJ to 0, new token is ADJ*
+ADJ:  -->State 12
+QUANT:  -->State 11
+ARTICLE:  -->State 9
+QUOTE:  -->State 8
+POSSESSIVE:	-->State 2
+ADJ*:	-->State 3
+NP:	-->State 4
+NPP:	-->State 21
+
+State # 11:
+OFWORD, END-OF-INPUT, VERB,
+ADV, MISCWORD, TOBE, CANDO,
+COMMA, PARTICLE, PREP,
+APOSTR:  Apply RED-QT to 1, new token is NP
+NOUN:  Apply RED-QT to 1, new token is NP
+       Apply RED-ADJ to 0, new token is ADJ*
+ADJ:  -->State 12
+      Apply RED-QT to 1, new token is NP
+QUANT:  -->State 11
+	Apply RED-QT to 1, new token is NP
+ARTICLE:  -->State 9
+	  Apply RED-QT to 1, new token is NP
+QUOTE:  -->State 8
+	Apply RED-QT to 1, new token is NP
+POSSESSIVE:	-->State 2
+ADJ*:	-->State 3
+NP:	-->State 20
+
+State # 12:
+END-OF-INPUT, NOUN, ADV:  Apply RED-ADJ to 0, new token is ADJ*
+ADJ:  -->State 12
+QUANT:  -->State 11
+ARTICLE:  -->State 9
+QUOTE:  -->State 8
+POSSESSIVE:	-->State 2
+ADJ*:	-->State 13
+NP:	-->State 14
+
+State # 13:
+END-OF-INPUT, ADV:  Apply RED-ADJ to 2, new token is ADJ*
+NOUN:  -->State 19
+       Apply RED-ADJ to 2, new token is ADJ*
+
+State # 14:
+APOSTR:  -->State 16
+OFWORD:  -->State 15
+
+State # 15:
+NOUN:  Apply RED-ADJ to 0, new token is ADJ*
+ADJ:  -->State 12
+QUANT:  -->State 11
+ARTICLE:  -->State 9
+QUOTE:  -->State 8
+POSSESSIVE:	-->State 2
+ADJ*:	-->State 3
+NP:	-->State 18
+
+State # 16:
+MISCWORD:  -->State 17
+
+State # 17:
+ARTICLE, QUOTE,
+END-OF-INPUT, NOUN, ADJ,
+ADV, QUANT:  Apply RED-POSS to 3, new token is POSSESSIVE
+
+State # 18:
+ARTICLE, QUOTE,
+END-OF-INPUT, VERB, NOUN,
+ADJ, ADV, QUANT, MISCWORD,
+TOBE, CANDO, COMMA,
+PARTICLE, PREP:  Apply RED-OF to 3, new token is NP
+APOSTR:  -->State 16
+	 Apply RED-OF to 3, new token is NP
+OFWORD:  -->State 15
+	 Apply RED-OF to 3, new token is NP
+
+State # 19:
+OFWORD, ARTICLE, QUOTE,
+END-OF-INPUT, VERB, NOUN,
+ADJ, ADV, QUANT, MISCWORD,
+TOBE, CANDO, COMMA,
+PARTICLE, PREP, APOSTR:  Apply RED-NP to 2, new token is NP
+
+State # 20:
+ARTICLE, QUOTE,
+END-OF-INPUT, VERB, NOUN,
+ADJ, ADV, QUANT, MISCWORD,
+TOBE, CANDO, COMMA,
+PARTICLE, PREP:  Apply RED-QN to 2, new token is NP
+APOSTR:  -->State 16
+	 Apply RED-QN to 2, new token is NP
+OFWORD:  -->State 15
+	 Apply RED-QN to 2, new token is NP
+
+State # 21:
+COMMA:  -->State 25
+PARTICLE:  -->State 24
+PREP:  -->State 23
+PP:	-->State 22
+
+State # 22:
+ARTICLE, QUOTE,
+END-OF-INPUT, NOUN, ADJ,
+ADV, QUANT, COMMA, PARTICLE,
+PREP:  Apply RED-NPP to 2, new token is NPP
+
+State # 23:
+NOUN:  Apply RED-ADJ to 0, new token is ADJ*
+ADJ:  -->State 12
+QUANT:  -->State 11
+OFWORD:  -->State 32
+ARTICLE:  -->State 9
+QUOTE:  -->State 8
+POSSESSIVE:	-->State 2
+ADJ*:	-->State 3
+NP:	-->State 4
+NPP:	-->State 31
+
+State # 24:
+END-OF-INPUT, VERB, ADV,
+DIR, TOBE, QWORD, CANDO,
+PARTICLE, PREP:  Apply RED-PERS to 3, new token is ?PERS
+NOUN:  Apply RED-PERS to 3, new token is ?PERS
+       Apply RED-ADJ to 0, new token is ADJ*
+ADJ:  -->State 12
+      Apply RED-PERS to 3, new token is ?PERS
+QUANT:  -->State 11
+	Apply RED-PERS to 3, new token is ?PERS
+OFWORD:  -->State 28
+ARTICLE:  -->State 9
+	  Apply RED-PERS to 3, new token is ?PERS
+QUOTE:  -->State 8
+	Apply RED-PERS to 3, new token is ?PERS
+POSSESSIVE:	-->State 2
+ADJ*:	-->State 3
+NP:	-->State 4
+NPP:	-->State 27
+
+State # 25:
+NOUN:  Apply RED-ADJ to 0, new token is ADJ*
+ADJ:  -->State 12
+QUANT:  -->State 11
+ARTICLE:  -->State 9
+QUOTE:  -->State 8
+POSSESSIVE:	-->State 2
+ADJ*:	-->State 3
+NP:	-->State 26
+
+State # 26:
+ARTICLE, QUOTE,
+END-OF-INPUT, NOUN, ADJ,
+ADV, QUANT, COMMA, PARTICLE,
+PREP:  Apply RED-NPP to 3, new token is NPP
+APOSTR:  -->State 16
+OFWORD:  -->State 15
+
+State # 27:
+ARTICLE, QUOTE,
+END-OF-INPUT, NOUN, ADJ,
+ADV, QUANT:  Apply RED-PP to 2, new token is PP
+COMMA:  -->State 25
+	Apply RED-PP to 2, new token is PP
+PARTICLE:  -->State 30
+	   Apply RED-PP to 2, new token is PP
+PREP:  -->State 23
+       Apply RED-PP to 2, new token is PP
+PP:	-->State 22
+
+State # 28:
+NOUN:  Apply RED-ADJ to 0, new token is ADJ*
+ADJ:  -->State 12
+QUANT:  -->State 11
+ARTICLE:  -->State 9
+QUOTE:  -->State 8
+POSSESSIVE:	-->State 2
+ADJ*:	-->State 3
+NP:	-->State 4
+NPP:	-->State 29
+
+State # 29:
+ARTICLE, QUOTE,
+END-OF-INPUT, NOUN, ADJ,
+ADV, QUANT:  Apply RED-PP to 3, new token is PP
+COMMA:  -->State 25
+	Apply RED-PP to 3, new token is PP
+PARTICLE:  -->State 30
+	   Apply RED-PP to 3, new token is PP
+PREP:  -->State 23
+       Apply RED-PP to 3, new token is PP
+PP:	-->State 22
+
+State # 30:
+NOUN:  Apply RED-ADJ to 0, new token is ADJ*
+ADJ:  -->State 12
+QUANT:  -->State 11
+OFWORD:  -->State 28
+ARTICLE:  -->State 9
+QUOTE:  -->State 8
+POSSESSIVE:	-->State 2
+ADJ*:	-->State 3
+NP:	-->State 4
+NPP:	-->State 27
+
+State # 31:
+ARTICLE, QUOTE,
+END-OF-INPUT, NOUN, ADJ,
+ADV, QUANT:  Apply RED-PP to 2, new token is PP
+COMMA:  -->State 25
+	Apply RED-PP to 2, new token is PP
+PARTICLE:  -->State 30
+	   Apply RED-PP to 2, new token is PP
+PREP:  -->State 23
+       Apply RED-PP to 2, new token is PP
+PP:	-->State 22
+
+State # 32:
+NOUN:  Apply RED-ADJ to 0, new token is ADJ*
+ADJ:  -->State 12
+QUANT:  -->State 11
+ARTICLE:  -->State 9
+QUOTE:  -->State 8
+POSSESSIVE:	-->State 2
+ADJ*:	-->State 3
+NP:	-->State 4
+NPP:	-->State 33
+
+State # 33:
+ARTICLE, QUOTE,
+END-OF-INPUT, NOUN, ADJ,
+ADV, QUANT:  Apply RED-PP to 3, new token is PP
+COMMA:  -->State 25
+	Apply RED-PP to 3, new token is PP
+PARTICLE:  -->State 30
+	   Apply RED-PP to 3, new token is PP
+PREP:  -->State 23
+       Apply RED-PP to 3, new token is PP
+PP:	-->State 22
+
+State # 34:
+END-OF-INPUT, ADV:  Apply RED-ADJ to 2, new token is ADJ*
+NOUN:  -->State 19
+       Apply RED-ADJ to 2, new token is ADJ*
+
+State # 35:
+END-OF-INPUT, NOUN, ADV:  Apply RED-ADJ to 0, new token is ADJ*
+ADJ:  -->State 12
+QUANT:  -->State 11
+PARTICLE:  -->State 99
+PREP:  -->State 23
+ARTICLE:  -->State 9
+QUOTE:  -->State 8
+POSSESSIVE:	-->State 2
+ADJ*:	-->State 96
+PP:	-->State 97
+NP:	-->State 98
+
+State # 36:
+TOBE:  -->State 44
+CANDO:  -->State 78
+BE-FORM:	-->State 77
+
+State # 37:
+VERB, ADV:  Apply RED-CANDO to 1, new token is ?CANDO
+TOBE:  -->State 44
+CANDO:  -->State 67
+APOSTR:  -->State 16
+OFWORD:  -->State 15
+BE-FORM:	-->State 66
+
+State # 38:
+VERB:  Apply RED-FCN to 0, new token is ?ADV
+ADV:  -->State 47
+?ADV:	-->State 63
+
+State # 39:
+END-OF-INPUT, ADV:  Apply RED-PART to 0, new token is ?PARTICLE
+NOUN:  Apply RED-PART to 0, new token is ?PARTICLE
+       Apply RED-ADJ to 0, new token is ADJ*
+ADJ:  -->State 12
+      Apply RED-PART to 0, new token is ?PARTICLE
+QUANT:  -->State 11
+	Apply RED-PART to 0, new token is ?PARTICLE
+DIR:  -->State 51
+PARTICLE:  -->State 50
+ARTICLE:  -->State 9
+	  Apply RED-PART to 0, new token is ?PARTICLE
+QUOTE:  -->State 8
+	Apply RED-PART to 0, new token is ?PARTICLE
+POSSESSIVE:	-->State 2
+ADJ*:	-->State 3
+NP:	-->State 4
+NPP:	-->State 48
+?PARTICLE:	-->State 49
+
+State # 40:
+ADV:  -->State 47
+END-OF-INPUT:  Apply RED-FCN to 0, new token is ?ADV
+?ADV:	-->State 46
+
+State # 41:
+TOBE:  -->State 44
+       Apply RED-FCN to 1, new token is ?QW1
+CANDO:  Apply RED-FCN to 1, new token is ?QW1
+BE-FORM:	-->State 43
+
+State # 42:
+END-OF-INPUT, ADV:  Apply RED-SD to 1, new token is S
+
+State # 43:
+NOUN:  Apply RED-ADJ to 0, new token is ADJ*
+ADJ:  -->State 12
+QUANT:  -->State 11
+ARTICLE:  -->State 9
+QUOTE:  -->State 8
+POSSESSIVE:	-->State 2
+ADJ*:	-->State 3
+NP:	-->State 45
+
+State # 44:
+ARTICLE, QUOTE, NOUN, ADJ,
+QUANT, MISCWORD, PARTICLE,
+PREP:  Apply RED-BE-FORM to 1, new token is BE-FORM
+
+State # 45:
+END-OF-INPUT, ADV:  Apply RED-SQBN to 3, new token is S
+APOSTR:  -->State 16
+OFWORD:  -->State 15
+
+State # 46:
+END-OF-INPUT:  Apply RED-SP to 3, new token is SP
+
+State # 47:
+ARTICLE, QUOTE,
+END-OF-INPUT, VERB, NOUN,
+ADJ, ADV, QUANT, DIR,
+PARTICLE:  Apply RED-FCN to 1, new token is ?ADV
+
+State # 48:
+ARTICLE, QUOTE, NOUN, ADJ,
+QUANT:  Apply RED-PART to 0, new token is ?PARTICLE
+COMMA:  -->State 25
+PARTICLE:  -->State 61
+PREP:  -->State 23
+PP:	-->State 22
+?PARTICLE:	-->State 60
+
+State # 49:
+END-OF-INPUT, ADV:  Apply RED-SV to 2, new token is S
+NOUN:  Apply RED-ADJ to 0, new token is ADJ*
+ADJ:  -->State 12
+QUANT:  -->State 11
+ARTICLE:  -->State 9
+QUOTE:  -->State 8
+POSSESSIVE:	-->State 2
+ADJ*:	-->State 3
+NP:	-->State 4
+NPP:	-->State 54
+
+State # 50:
+ARTICLE, QUOTE,
+END-OF-INPUT, NOUN, ADJ,
+ADV, QUANT:  Apply RED-PART to 0, new token is ?PARTICLE
+PARTICLE:  -->State 50
+OFWORD:  -->State 53
+?PARTICLE:	-->State 52
+
+State # 51:
+END-OF-INPUT, ADV:  Apply RED-SVD to 2, new token is S
+
+State # 52:
+ARTICLE, QUOTE,
+END-OF-INPUT, NOUN, ADJ,
+ADV, QUANT:  Apply RED-PART to 2, new token is ?PARTICLE
+
+State # 53:
+ARTICLE, QUOTE,
+END-OF-INPUT, NOUN, ADJ,
+ADV, QUANT:  Apply RED-PART to 2, new token is ?PARTICLE
+
+State # 54:
+END-OF-INPUT, ADV:  Apply RED-SVN to 3, new token is S
+NOUN:  Apply RED-PART to 0, new token is ?PARTICLE
+       Apply RED-ADJ to 0, new token is ADJ*
+ADJ:  -->State 12
+      Apply RED-PART to 0, new token is ?PARTICLE
+QUANT:  -->State 11
+	Apply RED-PART to 0, new token is ?PARTICLE
+COMMA:  -->State 25
+PARTICLE:  -->State 57
+PREP:  -->State 23
+ARTICLE:  -->State 9
+	  Apply RED-PART to 0, new token is ?PARTICLE
+QUOTE:  -->State 8
+	Apply RED-PART to 0, new token is ?PARTICLE
+POSSESSIVE:	-->State 2
+ADJ*:	-->State 3
+PP:	-->State 22
+NP:	-->State 4
+NPP:	-->State 55
+?PARTICLE:	-->State 56
+
+State # 55:
+END-OF-INPUT, ADV:  Apply RED-SVPNN to 4, new token is S
+COMMA:  -->State 25
+PARTICLE:  -->State 30
+PREP:  -->State 23
+PP:	-->State 22
+
+State # 56:
+NOUN:  Apply RED-ADJ to 0, new token is ADJ*
+ADJ:  -->State 12
+QUANT:  -->State 11
+ARTICLE:  -->State 9
+QUOTE:  -->State 8
+POSSESSIVE:	-->State 2
+ADJ*:	-->State 3
+NP:	-->State 4
+NPP:	-->State 59
+
+State # 57:
+NOUN:  Apply RED-PART to 0, new token is ?PARTICLE
+       Apply RED-ADJ to 0, new token is ADJ*
+ADJ:  -->State 12
+      Apply RED-PART to 0, new token is ?PARTICLE
+QUANT:  -->State 11
+	Apply RED-PART to 0, new token is ?PARTICLE
+PARTICLE:  -->State 50
+OFWORD:  -->State 58
+ARTICLE:  -->State 9
+	  Apply RED-PART to 0, new token is ?PARTICLE
+QUOTE:  -->State 8
+	Apply RED-PART to 0, new token is ?PARTICLE
+POSSESSIVE:	-->State 2
+ADJ*:	-->State 3
+NP:	-->State 4
+NPP:	-->State 27
+?PARTICLE:	-->State 52
+
+State # 58:
+NOUN:  Apply RED-PART to 2, new token is ?PARTICLE
+       Apply RED-ADJ to 0, new token is ADJ*
+ADJ:  -->State 12
+      Apply RED-PART to 2, new token is ?PARTICLE
+QUANT:  -->State 11
+	Apply RED-PART to 2, new token is ?PARTICLE
+ARTICLE:  -->State 9
+	  Apply RED-PART to 2, new token is ?PARTICLE
+QUOTE:  -->State 8
+	Apply RED-PART to 2, new token is ?PARTICLE
+POSSESSIVE:	-->State 2
+ADJ*:	-->State 3
+NP:	-->State 4
+NPP:	-->State 29
+
+State # 59:
+END-OF-INPUT, ADV:  Apply RED-SVPNPN to 5, new token is S
+COMMA:  -->State 25
+PARTICLE:  -->State 30
+PREP:  -->State 23
+PP:	-->State 22
+
+State # 60:
+NOUN:  Apply RED-ADJ to 0, new token is ADJ*
+ADJ:  -->State 12
+QUANT:  -->State 11
+ARTICLE:  -->State 9
+QUOTE:  -->State 8
+POSSESSIVE:	-->State 2
+ADJ*:	-->State 3
+NP:	-->State 4
+NPP:	-->State 62
+
+State # 61:
+END-OF-INPUT, ADV:  Apply RED-SVNP to 3, new token is S
+NOUN:  Apply RED-PART to 0, new token is ?PARTICLE
+       Apply RED-ADJ to 0, new token is ADJ*
+ADJ:  -->State 12
+      Apply RED-PART to 0, new token is ?PARTICLE
+QUANT:  -->State 11
+	Apply RED-PART to 0, new token is ?PARTICLE
+PARTICLE:  -->State 50
+OFWORD:  -->State 58
+ARTICLE:  -->State 9
+	  Apply RED-PART to 0, new token is ?PARTICLE
+QUOTE:  -->State 8
+	Apply RED-PART to 0, new token is ?PARTICLE
+POSSESSIVE:	-->State 2
+ADJ*:	-->State 3
+NP:	-->State 4
+NPP:	-->State 27
+?PARTICLE:	-->State 52
+
+State # 62:
+END-OF-INPUT, ADV:  Apply RED-SVNPN to 4, new token is S
+COMMA:  -->State 25
+PARTICLE:  -->State 30
+PREP:  -->State 23
+PP:	-->State 22
+
+State # 63:
+VERB:  -->State 64
+
+State # 64:
+ARTICLE, QUOTE,
+END-OF-INPUT, NOUN, ADJ,
+QUANT, DIR, PARTICLE:  Apply RED-FCN to 0, new token is ?ADV
+ADV:  -->State 47
+      Apply RED-FCN to 0, new token is ?ADV
+?ADV:	-->State 65
+
+State # 65:
+ARTICLE, QUOTE,
+END-OF-INPUT, NOUN, ADJ,
+ADV, QUANT, DIR, PARTICLE:  Apply RED-VP to 4, new token is VP
+
+State # 66:
+ARTICLE, QUOTE, NOUN, ADJ,
+QUANT, PARTICLE, PREP:  Apply RED-NOT to 0, new token is ?NOT
+MISCWORD:  -->State 69
+	   Apply RED-NOT to 0, new token is ?NOT
+?NOT:	-->State 70
+
+State # 67:
+VERB, ADV:  Apply RED-NOT to 0, new token is ?NOT
+MISCWORD:  -->State 69
+?NOT:	-->State 68
+
+State # 68:
+VERB, ADV:  Apply RED-CANDO to 3, new token is ?CANDO
+
+State # 69:
+ARTICLE, QUOTE, VERB, NOUN,
+ADJ, ADV, QUANT, MISCWORD,
+PARTICLE, PREP:  Apply RED-NOT to 1, new token is ?NOT
+
+State # 70:
+ARTICLE, QUOTE, NOUN, ADJ,
+QUANT, PARTICLE, PREP:  Apply RED-BE to 0, new token is ?BE
+MISCWORD:  -->State 72
+?BE:	-->State 71
+
+State # 71:
+NOUN:  Apply RED-ADJ to 0, new token is ADJ*
+ADJ:  -->State 75
+QUANT:  -->State 11
+PARTICLE:  -->State 30
+PREP:  -->State 23
+ARTICLE:  -->State 9
+QUOTE:  -->State 8
+POSSESSIVE:	-->State 2
+ADJ*:	-->State 3
+PP:	-->State 73
+NP:	-->State 4
+NPP:	-->State 74
+
+State # 72:
+ARTICLE, QUOTE, NOUN, ADJ,
+QUANT, PARTICLE, PREP:  Apply RED-BE to 1, new token is ?BE
+
+State # 73:
+END-OF-INPUT, ADV:  Apply RED-SNBP to 5, new token is S
+
+State # 74:
+END-OF-INPUT, ADV:  Apply RED-SNBN to 5, new token is S
+COMMA:  -->State 25
+PARTICLE:  -->State 30
+PREP:  -->State 23
+PP:	-->State 22
+
+State # 75:
+END-OF-INPUT, ADV:  Apply RED-SNBA to 5, new token is S
+NOUN:  Apply RED-ADJ to 0, new token is ADJ*
+ADJ:  -->State 12
+QUANT:  -->State 11
+PARTICLE:  -->State 30
+PREP:  -->State 23
+ARTICLE:  -->State 9
+QUOTE:  -->State 8
+POSSESSIVE:	-->State 2
+ADJ*:	-->State 13
+PP:	-->State 76
+NP:	-->State 14
+
+State # 76:
+END-OF-INPUT, ADV:  Apply RED-SNBAP to 6, new token is S
+
+State # 77:
+NOUN:  Apply RED-ADJ to 0, new token is ADJ*
+ADJ:  -->State 12
+QUANT:  -->State 11
+MISCWORD:  -->State 81
+ARTICLE:  -->State 9
+QUOTE:  -->State 8
+POSSESSIVE:	-->State 2
+ADJ*:	-->State 3
+NOT:	-->State 84
+NP:	-->State 85
+
+State # 78:
+NOUN:  Apply RED-ADJ to 0, new token is ADJ*
+ADJ:  -->State 12
+QUANT:  -->State 11
+MISCWORD:  -->State 81
+ARTICLE:  -->State 9
+QUOTE:  -->State 8
+POSSESSIVE:	-->State 2
+ADJ*:	-->State 3
+NOT:	-->State 79
+NP:	-->State 80
+
+State # 79:
+NOUN:  Apply RED-ADJ to 0, new token is ADJ*
+ADJ:  -->State 12
+QUANT:  -->State 11
+ARTICLE:  -->State 9
+QUOTE:  -->State 8
+POSSESSIVE:	-->State 2
+ADJ*:	-->State 3
+NP:	-->State 83
+
+State # 80:
+VERB, ADV:  Apply RED-NOT to 0, new token is ?NOT
+MISCWORD:  -->State 69
+APOSTR:  -->State 16
+OFWORD:  -->State 15
+?NOT:	-->State 82
+
+State # 81:
+ARTICLE, QUOTE, NOUN, ADJ,
+QUANT:  Apply RED-NOT to 1, new token is NOT
+
+State # 82:
+VERB, ADV:  Apply RED-CANDO to 4, new token is ?CANDO
+
+State # 83:
+VERB, ADV:  Apply RED-CANDO to 4, new token is ?CANDO
+APOSTR:  -->State 16
+OFWORD:  -->State 15
+
+State # 84:
+NOUN:  Apply RED-ADJ to 0, new token is ADJ*
+ADJ:  -->State 12
+QUANT:  -->State 11
+ARTICLE:  -->State 9
+QUOTE:  -->State 8
+POSSESSIVE:	-->State 2
+ADJ*:	-->State 3
+NP:	-->State 91
+
+State # 85:
+ARTICLE, QUOTE, NOUN, ADJ,
+QUANT, PARTICLE, PREP:  Apply RED-NOT to 0, new token is ?NOT
+MISCWORD:  -->State 69
+	   Apply RED-NOT to 0, new token is ?NOT
+APOSTR:  -->State 16
+OFWORD:  -->State 15
+?NOT:	-->State 86
+
+State # 86:
+ARTICLE, QUOTE, NOUN, ADJ,
+QUANT, PARTICLE, PREP:  Apply RED-BE to 0, new token is ?BE
+MISCWORD:  -->State 72
+?BE:	-->State 87
+
+State # 87:
+NOUN:  Apply RED-ADJ to 0, new token is ADJ*
+ADJ:  -->State 90
+QUANT:  -->State 11
+PARTICLE:  -->State 30
+PREP:  -->State 23
+ARTICLE:  -->State 9
+QUOTE:  -->State 8
+POSSESSIVE:	-->State 2
+ADJ*:	-->State 3
+PP:	-->State 88
+NP:	-->State 4
+NPP:	-->State 89
+
+State # 88:
+END-OF-INPUT, ADV:  Apply RED-SBNP to 6, new token is S
+
+State # 89:
+END-OF-INPUT, ADV:  Apply RED-SBNN to 6, new token is S
+COMMA:  -->State 25
+PARTICLE:  -->State 30
+PREP:  -->State 23
+PP:	-->State 22
+
+State # 90:
+END-OF-INPUT, ADV:  Apply RED-SBNA to 6, new token is S
+NOUN:  Apply RED-ADJ to 0, new token is ADJ*
+ADJ:  -->State 12
+QUANT:  -->State 11
+ARTICLE:  -->State 9
+QUOTE:  -->State 8
+POSSESSIVE:	-->State 2
+ADJ*:	-->State 13
+NP:	-->State 14
+
+State # 91:
+ARTICLE, QUOTE, NOUN, ADJ,
+QUANT, PARTICLE, PREP:  Apply RED-BE to 0, new token is ?BE
+MISCWORD:  -->State 72
+APOSTR:  -->State 16
+OFWORD:  -->State 15
+?BE:	-->State 92
+
+State # 92:
+NOUN:  Apply RED-ADJ to 0, new token is ADJ*
+ADJ:  -->State 95
+QUANT:  -->State 11
+PARTICLE:  -->State 30
+PREP:  -->State 23
+ARTICLE:  -->State 9
+QUOTE:  -->State 8
+POSSESSIVE:	-->State 2
+ADJ*:	-->State 3
+PP:	-->State 93
+NP:	-->State 4
+NPP:	-->State 94
+
+State # 93:
+END-OF-INPUT, ADV:  Apply RED-SBNP to 6, new token is S
+
+State # 94:
+END-OF-INPUT, ADV:  Apply RED-SBNN to 6, new token is S
+COMMA:  -->State 25
+PARTICLE:  -->State 30
+PREP:  -->State 23
+PP:	-->State 22
+
+State # 95:
+END-OF-INPUT, ADV:  Apply RED-SBNA to 6, new token is S
+NOUN:  Apply RED-ADJ to 0, new token is ADJ*
+ADJ:  -->State 12
+QUANT:  -->State 11
+ARTICLE:  -->State 9
+QUOTE:  -->State 8
+POSSESSIVE:	-->State 2
+ADJ*:	-->State 13
+NP:	-->State 14
+
+State # 96:
+END-OF-INPUT, ADV:  Apply RED-O-ADJ to 2, new token is S
+NOUN:  -->State 19
+
+State # 97:
+END-OF-INPUT, ADV:  Apply RED-O-PP to 2, new token is S
+
+State # 98:
+END-OF-INPUT, ADV:  Apply RED-O-NP to 2, new token is S
+PARTICLE:  -->State 30
+PREP:  -->State 23
+APOSTR:  -->State 16
+OFWORD:  -->State 15
+PP:	-->State 101
+
+State # 99:
+NOUN:  Apply RED-ADJ to 0, new token is ADJ*
+ADJ:  -->State 12
+QUANT:  -->State 11
+OFWORD:  -->State 28
+ARTICLE:  -->State 9
+QUOTE:  -->State 8
+POSSESSIVE:	-->State 2
+ADJ*:	-->State 3
+NP:	-->State 100
+NPP:	-->State 27
+
+State # 100:
+COMMA, PARTICLE, PREP:  Apply RED-NPP to 1, new token is NPP
+END-OF-INPUT, ADV:  Apply RED-O-PP to 3, new token is S
+		    Apply RED-NPP to 1, new token is NPP
+APOSTR:  -->State 16
+OFWORD:  -->State 15
+
+State # 101:
+END-OF-INPUT, ADV:  Apply RED-O-NP to 3, new token is S
+
+State # 102:
+END-OF-INPUT, VERB, ADV,
+DIR, TOBE, QWORD, CANDO,
+PARTICLE, PREP:  Apply RED-PERS to 2, new token is ?PERS
+NOUN:  Apply RED-PERS to 2, new token is ?PERS
+       Apply RED-ADJ to 0, new token is ADJ*
+ADJ:  -->State 12
+      Apply RED-PERS to 2, new token is ?PERS
+QUANT:  -->State 11
+	Apply RED-PERS to 2, new token is ?PERS
+ARTICLE:  -->State 9
+	  Apply RED-PERS to 2, new token is ?PERS
+QUOTE:  -->State 8
+	Apply RED-PERS to 2, new token is ?PERS
+POSSESSIVE:	-->State 2
+ADJ*:	-->State 3
+NP:	-->State 26
+
+State # 103:
+END-OF-INPUT, ADV:  Apply RED-ADJ to 2, new token is ADJ*
+NOUN:  -->State 19
+       Apply RED-ADJ to 2, new token is ADJ*

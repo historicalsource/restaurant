@@ -1,0 +1,2915 @@
+SEGMENT LIST
+Segment name: 0
+
+Adjacent segments :
+
+
+Included functions:
+
+V-TAKE? 6629
+PRE-TAKE? 6626
+V-DISEMBARK? 6599
+V-DROP? 6592
+PRE-DROP? 6588
+V-MUST? 6585
+V-WILL? 6582
+V-MIGHT? 6579
+V-SHOULD? 6576
+V-WOULD? 6573
+V-COULD? 6570
+V-DO? 6543
+V-MAY? 6540
+V-CAN? 6537
+ECHO-NOUNS 6522
+WHO-KNOWS 6436
+V-STATEMENT 6434
+IS-PRSO-ADJ? 6421
+PRINT-IS/ARE 6415
+PRSO-IS 6398
+ALIVE? 6395
+DEAD? 6392
+UNLOCKED? 6389
+LOCKED? 6386
+Q-CLOSED? 6382
+OPEN? 6378
+OUTSIDE? 6376
+QUIET? 6375
+V-HOW 6371
+V-WHY 6367
+V-WHEN 6363
+V-WHERE 6359
+PRE-WHERE 6355
+V-WHAT 6353
+V-WHO 6339
+V-BE? 6337
+RIGHT-PREP? 6328
+V-BE 6101
+PRE-BE 6098
+TRY-QCONTEXT? 6077
+TELL-Q-WORD 6064
+WHAT-F 6015
+INSERT-ADJS-WD 6005
+INSERT-ADJS 5969
+SETUP-ORPHAN-NP 5944
+YES? 5900
+INBUF-PRINT 5872
+INBUF-ADD 5846
+TOO-MANY-NOUNS 5831
+ADJS-PRINT 5792
+NP-PRINT 5713
+WHICH-PRINT 5641
+WHICH-LIST? 5634
+WINNER-SAYS-WHICH? 5633
+NP-CANT-SEE 5580
+CANT-FIND-OBJECT 5561
+MISSING 5550
+DONT-UNDERSTAND 5485
+CHANGE-AND-TO-THEN? 5420
+NAKED-ADJECTIVE? 5385
+PRINT-PARSER-FAILURE 5194
+CAPITALIZE 5183
+BUFFER-PRINT 5102
+COPY-INPUT 5084
+PRINT-LEXV 5028
+V-$REFRESH 5022
+REPLACE-ONE-TOKEN 5000
+MAKE-ROOM-FOR-TOKENS 4976
+CANT-USE-MULTIPLE 4962
+CANT-AGAIN 4955
+CANT-OOPS 4945
+NAKED-OOPS 4936
+TOO-MANY-NEW 4926
+NOUN-USED? 4919
+GET-NP 4908
+GET-OWNER 4893
+NOT-HERE 4871
+D-APPLY 4841
+TELL-D-LOC 4828
+ITAKE-CHECK 4797
+TELL-TOO-DARK 4795
+PERFORM 4643
+CANT-UNDO 4637
+META-LOC 4626
+QCONTEXT-GOOD? 4621
+TELL-SAID-TO 4616
+FIND-A-WINNER 4602
+NO-M-WINNER-VERB? 4601
+TELL-PRONOUN 4591
+FIX-HIM-HER-IT 4568
+VERB-ALL-TEST 4548
+V-PDEBUG 4529
+MORE-SPECIFIC 4521
+INSERT-WHAT 4511
+RED-CANDO 4350
+RED-NOT 4345
+RED-BE 4340
+RED-SQBN 4333
+P-PP-PREP 4329
+P-PP-OBJ 4321
+RED-SNBAP 4245
+RED-SNBP 4179
+RED-SBNP 4176
+RED-SNBA 4116
+RED-SBNA 4113
+DETERMINE-SUBJ 4050
+RED-SNBN 3991
+RED-SBNN 3988
+EXCH-4-5-Q 3952
+RED-BE-FORM 3947
+RED-QUOTE 3916
+RED-ADJ 3817
+RED-ADJS 3799
+RED-POSS 3786
+RED-PP 3769
+RED-NPP 3679
+RED-QN 3669
+GET-QUANTITY 3664
+GET-QUANTITY-WORD 3660
+RED-QT 3649
+RED-OF 3633
+RED-NP 3590
+RED-VP 3563
+HACK-TELL-1 3535
+HACK-TELL 3503
+RED-PERS 3472
+RED-O-NP 3317
+TEST-O-SR 3304
+TEST-SR 3249
+INSERT-NP 3210
+RED-O-PP 3180
+RED-O-ADJ 3164
+DO-ORPHAN-TEST 3163
+DETERMINE-NP-XFER 3141
+READY-TO-DISAMBIGUATE? 3131
+FIND-OWNERS 3119
+DET-NP-OWNEE? 3103
+DET-NP-NOT-HERE? 3089
+DETERMINE-NP 2862
+NUMERIC-ADJ? 2845
+CHECK-DIR-ADJS 2810
+DETERMINE-OBJ 2674
+REDUCE-LOCATION 2583
+REDUCE-EXCEPTION 2554
+REDUCE-EXCEPT-IT 2545
+IREDUCE-EXCEPTION 2534
+RED-SP 2522
+RED-SVD 2510
+RED-SVPNPN 2457
+SVN 2409
+RED-SVN 2390
+ROOT-VERB 2377
+RED-SV 2338
+GET-SYNTAX 2303
+RED-PART 2280
+RED-FCN 2276
+DIR-VERB-PRSI? 2275
+TEST-THINGS 2213
+FIND-OBJECTS 2040
+EXCLUDE-HERE-OBJECT? 2039
+SEARCH-IN-LG? 2038
+CHECK-ADJS 1959
+CHECK-ADJS-THERE? 1954
+MULTIPLE-EXCEPTION? 1935
+EVERYWHERE-VERB? 1923
+NOT-IN-FIND-RES? 1899
+ADD-OBJECT 1859
+TEST-OBJECT 1836
+MATCH-OBJECT 1759
+INVALID-OBJECT? 1758
+EXCLUDED? 1739
+FIND-DESCENDANTS 1711
+DO-IT-AGAIN 1682
+TELL-GWIM-MSG 1664
+CHANGE-LEXV 1653
+NUMBER? 1621
+BUZZER-WORD? 1599
+PARSER-ERROR 1566
+NP-SAVE 1528
+DO-AGAIN 1483
+DO-OOPS 1460
+WORD-PRINT 1451
+UNKNOWN-WORD 1434
+BEG-PARDON 1428
+P-NO-MEM-ROUTINE 1410
+MAIN-LOOP-IT 1399
+FIX-QUOTATIONS 1378
+IGNORE-FIRST-WORD 1366
+LIT? 1325
+QCONTEXT-CHECK 1314
+PERF-MANY 1294
+MAIN-LOOP-1 1062
+MAIN-LOOP 1060
+BE-PATIENT 1029
+GET-NONTERMINAL-ACTION 1019
+GET-TERMINAL-ACTION 1007
+PARSE-SENTENCE 674
+PARSE-IT 567
+P-P 490
+RED-SD 470
+GAME-VERB? 463
+PARSER 289
+NAKED-DIR? 262
+TELL-CTHE 247
+TELL-THE 232
+EXPAND-BE-CONTRACTIONS 164
+SPECIAL-CONTRACTION? 163
+SCRIPT-INBUF 149
+READ-INPUT 140
+DIGITS 133
+UPDATE-STATUS-LINE 115
+INIT-STATUS-LINE 109
+DO-PMEM-ALLOC 85
+PMEM-RESET 77
+PMEM? 73
+PEEK-PSTACK 64
+
+Included strings:
+
+STR?221 1254
+STR?220 1253
+STR?219 1246
+STR?218 1245
+STR?217 1244
+STR?216 1241
+STR?215 1238
+STR?214 1235
+STR?213 1232
+STR?212 1230
+STR?211 1228
+STR?210 1225
+STR?209 1223
+STR?208 1219
+STR?207 1216
+STR?206 1213
+STR?205 1210
+STR?204 1207
+STR?203 1204
+STR?202 1201
+STR?201 1198
+STR?200 1193
+STR?199 1191
+STR?198 1188
+STR?197 1186
+STR?196 1182
+STR?195 1171
+STR?194 1168
+STR?193 1158
+STR?192 1153
+STR?191 1150
+STR?190 1140
+STR?189 1138
+STR?188 1128
+STR?187 1125
+STR?186 1123
+STR?185 1121
+STR?184 1111
+STR?183 1093
+STR?182 1086
+STR?181 1071
+STR?180 1013
+STR?179 999
+STR?178 939
+STR?177 913
+STR?176 887
+STR?175 864
+STR?174 736
+STR?173 659
+STR?172 651
+STR?171 567
+STR?170 557
+STR?169 554
+STR?168 553
+STR?167 547
+STR?166 542
+STR?165 534
+STR?164 522
+STR?163 515
+STR?162 505
+STR?161 496
+STR?160 495
+STR?159 492
+STR?158 485
+STR?157 483
+STR?156 481
+STR?155 480
+STR?154 479
+STR?153 477
+STR?152 476
+STR?151 475
+STR?150 473
+STR?149 472
+STR?148 469
+STR?147 467
+STR?146 465
+STR?145 458
+STR?144 457
+STR?143 452
+STR?142 449
+STR?141 448
+STR?140 447
+STR?139 445
+STR?138 444
+STR?137 443
+STR?136 441
+STR?135 439
+STR?134 437
+STR?133 435
+STR?132 434
+STR?131 432
+STR?130 430
+STR?129 428
+STR?128 418
+STR?127 414
+STR?126 412
+STR?125 408
+STR?124 407
+STR?123 405
+STR?122 404
+STR?121 401
+STR?120 399
+STR?119 398
+STR?118 397
+STR?117 396
+STR?116 394
+STR?115 393
+STR?114 392
+STR?113 390
+STR?112 387
+STR?111 385
+STR?110 381
+STR?109 380
+STR?108 379
+STR?107 378
+STR?106 377
+STR?105 375
+STR?104 374
+STR?103 373
+STR?102 372
+STR?101 371
+STR?100 369
+STR?99 368
+STR?98 367
+STR?97 363
+STR?96 360
+STR?95 356
+STR?94 352
+STR?93 349
+STR?92 344
+STR?91 339
+STR?90 334
+STR?89 329
+STR?88 320
+STR?87 310
+STR?86 298
+STR?85 291
+STR?84 286
+STR?83 281
+STR?82 277
+STR?81 273
+STR?80 271
+STR?79 268
+STR?78 266
+STR?77 263
+STR?76 261
+STR?75 259
+STR?74 258
+STR?73 257
+STR?72 255
+STR?71 254
+STR?70 252
+STR?69 251
+STR?68 250
+STR?67 249
+STR?66 248
+STR?65 247
+STR?64 246
+STR?63 245
+STR?62 244
+STR?61 243
+STR?60 239
+STR?59 236
+STR?58 233
+STR?57 229
+STR?56 228
+STR?55 227
+STR?54 226
+STR?53 224
+STR?52 222
+STR?51 220
+STR?50 218
+STR?49 216
+STR?48 214
+STR?47 212
+STR?46 209
+STR?45 206
+STR?44 203
+STR?43 198
+STR?42 195
+STR?41 192
+STR?40 190
+STR?39 187
+STR?38 184
+STR?37 181
+STR?36 178
+STR?35 175
+STR?34 172
+STR?33 169
+STR?32 166
+STR?31 162
+STR?30 159
+STR?29 156
+STR?28 153
+STR?27 151
+STR?26 149
+STR?25 147
+STR?24 145
+STR?23 143
+STR?22 140
+STR?21 137
+STR?20 134
+STR?19 131
+STR?18 128
+STR?17 126
+STR?16 123
+STR?15 121
+STR?14 118
+STR?13 114
+STR?12 112
+STR?11 110
+STR?10 108
+STR?9 106
+STR?8 104
+STR?7 99
+STR?6 94
+STR?5 86
+STR?4 79
+STR?3 71
+STR?2 66
+STR?1 64
+
+
+
+FUNCTION LIST
+SKY-F
+Used functions and strings:
+NOT-HERE 4871
+OUTSIDE? 6376
+
+OBJECT-OF-GAME-F
+Used functions and strings:
+
+THIRD-PLANET-F
+Used functions and strings:
+
+EYES-F
+Used functions and strings:
+
+HEAD-F
+Used functions and strings:
+PERFORM 4643
+
+HANDS-F
+Used functions and strings:
+PERFORM 4643
+FIND-IN 11731
+
+LIGHT-GLOBAL-F
+Used functions and strings:
+FIND-FLAG-HERE-NOT 11766
+OKAY 7963
+ALREADY 7942
+OUTSIDE? 6376
+REMOTE-VERB? 10840
+
+ROB
+Used functions and strings:
+PRINT-THE 6674
+
+SLEEP-GLOBAL-F
+Used functions and strings:
+PERFORM 4643
+
+CHAIR-F
+Used functions and strings:
+RANDOM-PSEUDO 10852
+WONT-HELP 7654
+
+GLOBAL-HERE-F
+Used functions and strings:
+START-SEARCH 13131
+FIND-IN 11731
+META-LOC 4626
+MORE-SPECIFIC 4521
+DO-INSTEAD-OF 13092
+
+WALL-F
+Used functions and strings:
+DO-INSTEAD-OF 13092
+FIND-FLAG-LG 11746
+
+YOU-F
+Used functions and strings:
+QCONTEXT-GOOD? 4621
+PERFORM 4643
+DO-INSTEAD-OF 13092
+
+I-FOUND-IT
+Used functions and strings:
+
+START-SEARCH
+Used functions and strings:
+V-WAIT 10411
+QUEUE 6978
+OKAY 7963
+YES? 5900
+
+FLOOR-F
+Used functions and strings:
+ALREADY 7942
+
+IT-F
+Used functions and strings:
+
+TURN-F
+Used functions and strings:
+PERFORM 4643
+
+DO-INSTEAD-OF
+Used functions and strings:
+V-FOO 8759
+PERFORM 4643
+
+FRUSTRATION-F
+Used functions and strings:
+
+LOCAL-GLOBALS-F
+Used functions and strings:
+NOT-HERE 4871
+REMOTE-VERB? 10840
+
+COMMON-OTHER
+Used functions and strings:
+PERFORM 4643
+HE-SHE-IT 6771
+CARRY-CHECK 12837
+
+COMMON-ASK-ABOUT
+Used functions and strings:
+
+COM-CHECK
+Used functions and strings:
+HIM-HER-IT 6823
+ITAKE 7821
+UNSNOOZE 8291
+FACE-RED 10007
+HE-SHE-IT 6771
+CARRY-CHECK 12837
+PERFORM 4643
+TRANSIT-TEST 12844
+DONT-UNDERSTAND 5485
+
+TRANSIT-TEST
+Used functions and strings:
+
+CARRY-CHECK
+Used functions and strings:
+PRINT-CONTENTS 7366
+HE-SHE-IT 6771
+
+PERSON-F
+Used functions and strings:
+HIM-HER-IT 6823
+PRINT-THE 6674
+PERFORM 4643
+WONT-HELP 7654
+GRAB-ATTENTION 8139
+HELD? 7797
+HE-SHE-IT 6771
+UNSNOOZE 8291
+
+DESCRIBE-PERSON
+Used functions and strings:
+START-SENTENCE 6696
+
+TRILLIAN-D
+Used functions and strings:
+
+ZAPHOD-D
+Used functions and strings:
+
+FORD-D
+Used functions and strings:
+
+MARVIN-D
+Used functions and strings:
+
+TRILLIAN-F
+Used functions and strings:
+TELL-DUNNO 12616
+ASKING-ABOUT? 12530
+FUCKING-CLEAR 12451
+GRAB-ATTENTION 8139
+
+ZAPHOD-F
+Used functions and strings:
+TELL-DUNNO 12616
+ASKING-ABOUT? 12530
+FUCKING-CLEAR 12451
+GRAB-ATTENTION 8139
+
+TELL-DUNNO
+Used functions and strings:
+
+FORD-F
+Used functions and strings:
+ASKING-ABOUT? 12530
+FUCKING-CLEAR 12451
+GRAB-ATTENTION 8139
+
+ASKING-ABOUT?
+Used functions and strings:
+
+MARVIN-F
+Used functions and strings:
+FUCKING-CLEAR 12451
+GRAB-ATTENTION 8139
+
+FUCKING-CLEAR
+Used functions and strings:
+
+TOO-BAD-SIT-HIDE
+Used functions and strings:
+FIRST-YOU 9224
+
+PLAYER-F
+Used functions and strings:
+HELD? 7797
+REMOTE-VERB? 10840
+GAME-VERB? 463
+SPEAKING-VERB? 6647
+NOT-FOUND 6903
+PERFORM 4643
+PRE-TAKE 10078
+V-INVENTORY 7156
+V-WALK-AROUND 10661
+JIGS-UP 10732
+TELL-LOCATION 8715
+HAR-HAR 7646
+
+DOWN-TO-CRATER
+Used functions and strings:
+
+SLOPE-SCRAMBLE
+Used functions and strings:
+
+DEATH-BY-BLUBBER
+Used functions and strings:
+JIGS-UP 10732
+
+WANDER-AROUND
+Used functions and strings:
+
+FALL-OFF-RAMP
+Used functions and strings:
+JIGS-UP 10732
+
+HATCH-F
+Used functions and strings:
+NOT-HERE 4871
+
+SANDWICH-F
+Used functions and strings:
+
+BEER-F
+Used functions and strings:
+
+PUB-F
+Used functions and strings:
+
+WINDOW-F
+Used functions and strings:
+ALREADY 7942
+
+UNIMPORTANT-THING-F
+Used functions and strings:
+
+FIND-FLAG-HERE-NOT
+Used functions and strings:
+
+FIND-FLAG-HERE
+Used functions and strings:
+
+FIND-FLAG-LG
+Used functions and strings:
+
+FIND-FLAG-NOT
+Used functions and strings:
+
+FIND-IN
+Used functions and strings:
+
+DOOR-ROOM
+Used functions and strings:
+
+DINNER-F
+Used functions and strings:
+
+DINNER-D
+Used functions and strings:
+
+GAME-F
+Used functions and strings:
+
+PRIVATE
+Used functions and strings:
+
+SATCHEL-F
+Used functions and strings:
+ITEM-ON-SATCHEL-DESCRIPTION 11592
+PRINT-THE 6674
+HELD? 7797
+
+ITEM-ON-SATCHEL-DESCRIPTION
+Used functions and strings:
+PRINTA 6727
+
+SATCHEL-DESCFCN
+Used functions and strings:
+
+TOWEL-F
+Used functions and strings:
+
+BABEL-FISH-F
+Used functions and strings:
+
+GUIDE-F
+Used functions and strings:
+
+GUIDE-DESCFCN
+Used functions and strings:
+
+I-THING
+Used functions and strings:
+HELD? 7797
+VISIBLE? 8024
+I-THING 11028
+QUEUE 6978
+
+THING-F
+Used functions and strings:
+
+SLEEVES-F
+Used functions and strings:
+PERFORM 4643
+NOT-HERE 4871
+VISIBLE? 8024
+
+GOWN-F
+Used functions and strings:
+
+TOOTHBRUSH-F
+Used functions and strings:
+
+RANDOM-PSEUDO
+Used functions and strings:
+WONT-HELP 7654
+NOTHING-SPECIAL 8569
+
+REMOTE-VERB?
+Used functions and strings:
+
+V-UNDO
+Used functions and strings:
+
+FINISH
+Used functions and strings:
+V-RESTORE 7247
+FINISH 10746
+V-SCORE 7291
+
+JIGS-UP
+Used functions and strings:
+
+V-NO
+Used functions and strings:
+V-YES 10706
+
+V-YES
+Used functions and strings:
+D-APPLY 4841
+QCONTEXT-GOOD? 4621
+
+V-YELL
+Used functions and strings:
+
+V-RUN-OVER
+Used functions and strings:
+
+ENTER-ROOM
+Used functions and strings:
+V-FIRST-LOOK 7250
+LIT? 1325
+
+V-WALK-TO
+Used functions and strings:
+V-WALK-AROUND 10661
+HE-SHE-IT 6771
+GLOBAL-IN? 8577
+
+WALK-WITHIN-ROOM
+Used functions and strings:
+NO-NEED 7306
+
+WHO-KNOWS?
+Used functions and strings:
+PRINT-THE 6674
+
+V-WALK-AROUND
+Used functions and strings:
+
+OPEN-DOOR-AND-CLOSE-IT-AGAIN
+Used functions and strings:
+
+WALK-THRU-DOOR?
+Used functions and strings:
+THIS-IS-IT 6733
+TOO-BAD-BUT 8006
+UNLOCK-DOOR? 10604
+NOT-FOUND 6903
+YOU-CANT 7326
+
+UNLOCK-DOOR?
+Used functions and strings:
+
+V-WALK
+Used functions and strings:
+YOU-CANT 7326
+OKAY 7963
+GOTO 7710
+PERFORM 4643
+TELL-I-ASSUME 8860
+
+DO-WALK
+Used functions and strings:
+PERFORM 4643
+
+V-ALARM
+Used functions and strings:
+TOO-BAD-BUT 8006
+PERFORM 4643
+
+V-WAIT-UNTIL
+Used functions and strings:
+YOU-CANT 7326
+
+V-WAIT-FOR
+Used functions and strings:
+META-LOC 4626
+ALREADY 7942
+V-WAIT 10411
+
+V-WAIT
+Used functions and strings:
+YES? 5900
+VERB-PRINT 6918
+UPDATE-STATUS-LINE 115
+START-SENTENCE 6696
+NOT-IT 6953
+CLOCKER 6995
+
+V-USE
+Used functions and strings:
+MORE-SPECIFIC 4521
+
+V-UNLOCK
+Used functions and strings:
+HE-SHE-IT 6771
+OKAY 7963
+YOU-CANT 7326
+ALREADY 7942
+
+V-TURN
+Used functions and strings:
+PERFORM 4643
+
+V-THROW-THROUGH
+Used functions and strings:
+V-THROW 10349
+
+PRE-THROW-THROUGH
+Used functions and strings:
+
+V-THROW-IN-TOWEL
+Used functions and strings:
+DONT-UNDERSTAND 5485
+V-QUIT 7166
+
+V-THROW-AT
+Used functions and strings:
+HE-SHE-IT 6771
+IDROP 7809
+
+V-THROW
+Used functions and strings:
+IDROP 7809
+
+V-THANK
+Used functions and strings:
+PERFORM 4643
+QCONTEXT-GOOD? 4621
+HAR-HAR 7646
+PRINT-THE 6674
+
+V-TALK-ABOUT
+Used functions and strings:
+ARENT-TALKING 7934
+
+PRE-TALK-ABOUT
+Used functions and strings:
+TELL-I-ASSUME 8860
+QCONTEXT-GOOD? 4621
+PERFORM 4643
+
+V-TELL-ABOUT
+Used functions and strings:
+PRINT-THE 6674
+
+PRE-TELL-ABOUT
+Used functions and strings:
+PRE-ASK 8120
+NOT-FOUND 6903
+ARENT-TALKING 7934
+TELL-I-ASSUME 8860
+PERFORM 4643
+QCONTEXT-GOOD? 4621
+
+V-STELL-ABOUT
+Used functions and strings:
+V-FOO 8759
+
+PRE-STELL-ABOUT
+Used functions and strings:
+PERFORM 4643
+
+V-TELL
+Used functions and strings:
+PRINT-THE 6674
+UNSNOOZE 8291
+WONT-HELP-TO-TALK-TO 8174
+PERFORM 4643
+
+V-HOLD-UP
+Used functions and strings:
+WONT-HELP 7654
+PERFORM 4643
+
+OWN-FEET
+Used functions and strings:
+HIM-HER-IT 6823
+HE-SHE-IT 6771
+
+V-DISEMBARK
+Used functions and strings:
+HIM-HER-IT 6823
+ROOM-CHECK 7901
+
+V-TAKE-TO
+Used functions and strings:
+PERFORM 4643
+
+V-TAKE-OFF
+Used functions and strings:
+HIM-HER-IT 6823
+HE-SHE-IT 6771
+
+V-TAKE
+Used functions and strings:
+PRINT-THE 6674
+HE-SHE-IT 6771
+ITAKE 7821
+
+PRE-TAKE-WITH
+Used functions and strings:
+HIM-HER-IT 6823
+HE-SHE-IT 6771
+NOUN-USED? 4919
+YOU-CANT 7326
+PRINT-THE 6674
+ALREADY 7942
+NOT-HERE 4871
+HELD? 7797
+META-LOC 4626
+
+PRE-TAKE
+Used functions and strings:
+PRINT-THE 6674
+HE-SHE-IT 6771
+TOO-BAD-BUT 8006
+NOT-HERE 4871
+HAR-HAR 7646
+
+V-SWIM
+Used functions and strings:
+GROUND-DESC 8428
+HIM-HER-IT 6823
+HE-SHE-IT 6771
+
+V-STOP
+Used functions and strings:
+PERFORM 4643
+
+V-STAND
+Used functions and strings:
+ALREADY 7942
+WONT-HELP 7654
+PERFORM 4643
+
+V-SORRY
+Used functions and strings:
+GRAB-ATTENTION 8139
+
+V-SMILE
+Used functions and strings:
+
+V-SMELL
+Used functions and strings:
+PRINTA 6727
+HE-SHE-IT 6771
+
+FACE-RED
+Used functions and strings:
+HE-SHE-IT 6771
+UNSNOOZE 8291
+
+IF-SPY
+Used functions and strings:
+HE-SHE-IT 6771
+HIM-HER-IT 6823
+
+V-SLAP
+Used functions and strings:
+HE-SHE-IT 6771
+
+V-SIT-AT
+Used functions and strings:
+V-SIT 9934
+
+V-SIT
+Used functions and strings:
+WONT-HELP 7654
+PRINT-THE 6674
+
+PRE-SIT
+Used functions and strings:
+ROOM-CHECK 7901
+
+V-SSHOW
+Used functions and strings:
+V-FOO 8759
+
+PRE-SSHOW
+Used functions and strings:
+QCONTEXT-GOOD? 4621
+TELL-I-ASSUME 8860
+HELD? 7797
+PERFORM 4643
+
+V-SHOW
+Used functions and strings:
+WHO-CARES 8051
+HIM-HER-IT 6823
+PERFORM 4643
+VISIBLE? 8024
+
+V-SSHOOT
+Used functions and strings:
+V-FOO 8759
+
+PRE-SSHOOT
+Used functions and strings:
+PERFORM 4643
+
+V-SHOOT
+Used functions and strings:
+IKILL 8973
+
+V-SHAKE
+Used functions and strings:
+GROUND-DESC 8428
+HIM-HER-IT 6823
+
+V-SEARCH-FOR
+Used functions and strings:
+YOU-CANT 7326
+PRINT-THE 6674
+START-SENTENCE 6696
+HIM-HER-IT 6823
+HE-SHE-IT 6771
+PERFORM 4643
+
+PRE-SEARCH-FOR
+Used functions and strings:
+ROOM-CHECK 7901
+
+V-SSEARCH-FOR
+Used functions and strings:
+V-FOO 8759
+
+PRE-SSEARCH-FOR
+Used functions and strings:
+PERFORM 4643
+
+V-SEARCH
+Used functions and strings:
+NOTHING-SPECIAL 8569
+PRINTA 6727
+THIS-IS-IT 6733
+PERFORM 4643
+
+PRE-SEARCH
+Used functions and strings:
+ROOM-CHECK 7901
+
+V-SAY
+Used functions and strings:
+NOT-CLEAR-WHOM 7953
+TELL-I-ASSUME 8860
+PERFORM 4643
+QCONTEXT-GOOD? 4621
+
+V-RUB
+Used functions and strings:
+HACK-HACK 7792
+
+V-RING
+Used functions and strings:
+YOU-CANT 7326
+
+V-REMOVE
+Used functions and strings:
+PERFORM 4643
+
+V-RELAX
+Used functions and strings:
+
+V-REFUSE
+Used functions and strings:
+DONT-F 6865
+
+V-READ
+Used functions and strings:
+YOU-CANT 7326
+
+PRE-READ
+Used functions and strings:
+NOT-HERE 4871
+
+V-SREAD
+Used functions and strings:
+V-FOO 8759
+
+PRE-SREAD
+Used functions and strings:
+PERFORM 4643
+
+V-PUT-UNDER
+Used functions and strings:
+WONT-HELP 7654
+
+WEIGHT
+Used functions and strings:
+
+PUT-ON-OR-IN
+Used functions and strings:
+ITAKE 7821
+HELD? 7797
+HIM-HER-IT 6823
+TOO-BAD-BUT 8006
+HAR-HAR 7646
+YOU-CANT 7326
+
+V-PUT-IN
+Used functions and strings:
+HIM-HER-IT 6823
+TOO-BAD-BUT 8006
+
+PRE-PUT-IN
+Used functions and strings:
+FIRST-YOU 9224
+TELL-FIND-NONE 9604
+WONT-HELP 7654
+PRE-PUT 9577
+
+TELL-FIND-NONE
+Used functions and strings:
+PRINT-THE 6674
+
+V-PUT
+Used functions and strings:
+HIM-HER-IT 6823
+
+PRE-PUT
+Used functions and strings:
+YOU-CANT 7326
+HELD? 7797
+NOT-HERE 4871
+WONT-HELP 7654
+
+V-SPUT-ON
+Used functions and strings:
+PERFORM 4643
+
+V-PUSH
+Used functions and strings:
+HACK-HACK 7792
+
+V-PULL-TOGETHER
+Used functions and strings:
+DONT-UNDERSTAND 5485
+
+V-POUR
+Used functions and strings:
+HAR-HAR 7646
+
+V-PLAY
+Used functions and strings:
+
+V-PANIC
+Used functions and strings:
+
+V-OPEN
+Used functions and strings:
+YOU-CANT 7326
+PRINT-CONTENTS 7366
+HIM-HER-IT 6823
+OKAY 7963
+TOO-BAD-BUT 8006
+ALREADY 7942
+FIRST-YOU 9224
+IMPOSSIBLE 7650
+
+V-NOD
+Used functions and strings:
+PERFORM 4643
+YOU-CANT 7326
+
+V-MUNG
+Used functions and strings:
+IKILL 8973
+
+V-MOVE-DIR
+Used functions and strings:
+HIM-HER-IT 6823
+
+PRE-MOVE-DIR
+Used functions and strings:
+DONT-UNDERSTAND 5485
+
+V-MOVE
+Used functions and strings:
+YOU-CANT 7326
+HIM-HER-IT 6823
+
+PRE-MOVE
+Used functions and strings:
+HELD? 7797
+
+V-LOOK-UP
+Used functions and strings:
+YOU-CANT 7326
+PERFORM 4643
+OUTSIDE? 6376
+PRINT-THE 6674
+
+V-LOOK-UNDER
+Used functions and strings:
+HIM-HER-IT 6823
+PRINT-THE 6674
+HELD? 7797
+WONT-HELP 7654
+
+PRE-LOOK-UNDER
+Used functions and strings:
+ROOM-CHECK 7901
+
+V-LOOK-OUTSIDE
+Used functions and strings:
+V-LOOK-INSIDE 9152
+
+V-LOOK-ON
+Used functions and strings:
+HIM-HER-IT 6823
+V-LOOK-INSIDE 9152
+
+TELL-CANT-FIND
+Used functions and strings:
+
+SEE-INTO?
+Used functions and strings:
+
+ROOM-PEEK
+Used functions and strings:
+DESCRIBE-OBJECTS 7399
+HIM-HER-IT 6823
+LIT? 1325
+MAKE-ALL-PEOPLE 7739
+V-LOOK 9130
+
+NO-BEYOND
+Used functions and strings:
+HIM-HER-IT 6823
+
+V-LOOK-THROUGH
+Used functions and strings:
+YOU-CANT 7326
+TOO-BAD-BUT 8006
+
+FIRST-YOU
+Used functions and strings:
+PRINT-THE 6674
+HE-SHE-IT 6771
+
+V-LOOK-INSIDE
+Used functions and strings:
+YOU-CANT 7326
+TOO-BAD-BUT 8006
+HIM-HER-IT 6823
+PRINT-CONTENTS 7366
+SEE-INSIDE? 7929
+NOUN-USED? 4919
+TELL-I-ASSUME 8860
+PERFORM 4643
+GLOBAL-IN? 8577
+
+PRE-LOOK-INSIDE
+Used functions and strings:
+ROOM-CHECK 7901
+
+V-LOOK-DOWN
+Used functions and strings:
+PERFORM 4643
+
+V-LOOK-BEHIND
+Used functions and strings:
+HIM-HER-IT 6823
+TOO-BAD-BUT 8006
+
+V-LOOK
+Used functions and strings:
+DESCRIBE-OBJECTS 7399
+DESCRIBE-ROOM 7588
+
+V-LOCK
+Used functions and strings:
+HAR-HAR 7646
+
+V-LISTEN
+Used functions and strings:
+PRINT-THE 6674
+WAITING-FOR-YOU-TO-SPEAK 8105
+
+PRE-LISTEN
+Used functions and strings:
+PRE-ASK 8120
+
+V-LIE
+Used functions and strings:
+
+PRE-LIE
+Used functions and strings:
+ROOM-CHECK 7901
+
+V-LEAVE
+Used functions and strings:
+TELL-NOT-IN 8404
+PERFORM 4643
+
+WHEE
+Used functions and strings:
+
+V-SKIP
+Used functions and strings:
+
+V-LEAP
+Used functions and strings:
+IMPOSSIBLE 7650
+
+V-LAMP-ON
+Used functions and strings:
+YOU-CANT 7326
+HAR-HAR 7646
+OKAY 7963
+ALREADY 7942
+
+V-LAMP-OFF
+Used functions and strings:
+OKAY 7963
+ALREADY 7942
+YOU-CANT 7326
+
+V-KNOCK
+Used functions and strings:
+HACK-HACK 7792
+
+V-KISS
+Used functions and strings:
+
+IKILL
+Used functions and strings:
+HAR-HAR 7646
+PRINT-THE 6674
+
+V-KILL
+Used functions and strings:
+
+V-HIDE
+Used functions and strings:
+
+HELP-TEXT
+Used functions and strings:
+
+V-HELP
+Used functions and strings:
+MORE-SPECIFIC 4521
+
+V-HELLO
+Used functions and strings:
+NOT-CLEAR-WHOM 7953
+WONT-HELP-TO-TALK-TO 8174
+
+PRE-HELLO
+Used functions and strings:
+NOT-CLEAR-WHOM 7953
+QCONTEXT-GOOD? 4621
+HIM-HER-IT 6823
+PERFORM 4643
+WONT-HELP-TO-TALK-TO 8174
+
+TELL-I-ASSUME
+Used functions and strings:
+TELL-THE 232
+
+V-SGIVE
+Used functions and strings:
+V-FOO 8759
+
+PRE-SGIVE
+Used functions and strings:
+PERFORM 4643
+
+V-GIVE
+Used functions and strings:
+PRINT-THE 6674
+PERFORM 4643
+PRINTA 6727
+HE-SHE-IT 6771
+YOU-CANT 7326
+
+PRE-GIVE
+Used functions and strings:
+NOT-HOLDING? 7698
+
+I-REPLY
+Used functions and strings:
+
+V-FOOTNOTE
+Used functions and strings:
+QUEUE 6978
+
+V-FOO
+Used functions and strings:
+
+V-FOLLOW
+Used functions and strings:
+HE-SHE-IT 6771
+META-LOC 4626
+IMPOSSIBLE 7650
+YOU-CANT 7326
+
+FOLLOW-LOC?
+Used functions and strings:
+PRINT-THE 6674
+HE-SHE-IT 6771
+
+V-FIX
+Used functions and strings:
+MORE-SPECIFIC 4521
+
+TELL-LOCATION
+Used functions and strings:
+PRINT-THE 6674
+
+NO-FUN
+Used functions and strings:
+
+V-FIND
+Used functions and strings:
+FAR-AWAY? 8625
+META-LOC 4626
+NOT-HERE 4871
+THIS-IS-IT 6733
+VISIBLE? 8024
+HELD? 7797
+PRINT-THE 6674
+
+FAR-AWAY?
+Used functions and strings:
+
+BITE-YOU
+Used functions and strings:
+HE-SHE-IT 6771
+
+PRE-FIND
+Used functions and strings:
+META-LOC 4626
+PERFORM 4643
+ALREADY 7942
+
+V-FILL
+Used functions and strings:
+YOU-CANT 7326
+
+V-FAINT
+Used functions and strings:
+
+GLOBAL-IN?
+Used functions and strings:
+
+NOTHING-SPECIAL
+Used functions and strings:
+PRINT-THE 6674
+
+V-EXAMINE
+Used functions and strings:
+CHECK-DOOR 7888
+TOO-BAD-BUT 8006
+META-LOC 4626
+NOT-HERE 4871
+NOUN-USED? 4919
+
+PRE-EXAMINE
+Used functions and strings:
+ROOM-CHECK 7901
+
+V-THROUGH
+Used functions and strings:
+HIM-HER-IT 6823
+THIS-IS-IT 6733
+PRINT-THE 6674
+HE-SHE-IT 6771
+HAR-HAR 7646
+PERFORM 4643
+GOTO 7710
+NOUN-USED? 4919
+
+PRE-THROUGH
+Used functions and strings:
+PERFORM 4643
+
+V-ENJOY
+Used functions and strings:
+PRINT-THE 6674
+
+V-EAT
+Used functions and strings:
+PRINT-THE 6674
+
+PRE-EAT
+Used functions and strings:
+NOT-HERE 4871
+PERFORM 4643
+META-LOC 4626
+
+GROUND-DESC
+Used functions and strings:
+OUTSIDE? 6376
+
+V-DROP
+Used functions and strings:
+PRINT-THE 6674
+OKAY 7963
+IDROP 7809
+
+V-DRINK
+Used functions and strings:
+YOU-CANT 7326
+
+TELL-NOT-IN
+Used functions and strings:
+HIM-HER-IT 6823
+HE-SHE-IT 6771
+
+V-DIAGNOSE
+Used functions and strings:
+HE-SHE-IT 6771
+YOU-CANT 7326
+
+V-COUNT
+Used functions and strings:
+IMPOSSIBLE 7650
+
+V-CLOSE
+Used functions and strings:
+ALREADY 7942
+OKAY 7963
+YOU-CANT 7326
+
+V-CLIMB-DOWN
+Used functions and strings:
+V-CLIMB-UP 8356
+
+V-CLIMB-UP
+Used functions and strings:
+HAR-HAR 7646
+YOU-CANT 7326
+PERFORM 4643
+
+V-CLIMB-ON
+Used functions and strings:
+PERFORM 4643
+
+V-BOARD
+Used functions and strings:
+YOU-CANT 7326
+HE-SHE-IT 6771
+PRINT-THE 6674
+ALREADY 7942
+
+V-CHASTISE
+Used functions and strings:
+PERFORM 4643
+HIM-HER-IT 6823
+
+UNSNOOZE
+Used functions and strings:
+HE-SHE-IT 6771
+META-LOC 4626
+
+V-$CALL
+Used functions and strings:
+MISSING 5550
+NOT-HERE 4871
+START-SENTENCE 6696
+GRAB-ATTENTION 8139
+META-LOC 4626
+
+V-BUY
+Used functions and strings:
+PRINT-THE 6674
+
+V-BRUSH
+Used functions and strings:
+PRINTA 6727
+PRINT-THE 6674
+PERFORM 4643
+HELD? 7797
+
+PRE-BRUSH
+Used functions and strings:
+
+V-ATTACK
+Used functions and strings:
+
+V-ASK-CONTEXT-FOR
+Used functions and strings:
+ARENT-TALKING 7934
+
+PRE-ASK-CONTEXT-FOR
+Used functions and strings:
+PRE-ASK-CONTEXT-ABOUT 8189
+PERFORM 4643
+
+V-ASK-FOR
+Used functions and strings:
+PRINT-THE 6674
+
+V-ASK-CONTEXT-ABOUT
+Used functions and strings:
+ARENT-TALKING 7934
+
+PRE-ASK-CONTEXT-ABOUT
+Used functions and strings:
+PERFORM 4643
+QCONTEXT-GOOD? 4621
+
+WONT-HELP-TO-TALK-TO
+Used functions and strings:
+HE-SHE-IT 6771
+PRINT-THE 6674
+
+V-ASK-ABOUT
+Used functions and strings:
+PERFORM 4643
+PRINT-THE 6674
+
+GRAB-ATTENTION
+Used functions and strings:
+TOO-BAD-BUT 8006
+
+PRE-ASK
+Used functions and strings:
+MISSING 5550
+NOT-HERE 4871
+META-LOC 4626
+
+V-ASK
+Used functions and strings:
+
+WAITING-FOR-YOU-TO-SPEAK
+Used functions and strings:
+HE-SHE-IT 6771
+
+V-REPLY
+Used functions and strings:
+YOU-CANT 7326
+
+V-ANSWER
+Used functions and strings:
+NOT-CLEAR-WHOM 7953
+PERFORM 4643
+
+V-ANALYZE
+Used functions and strings:
+HE-SHE-IT 6771
+CHECK-DOOR 7888
+
+PRE-ANALYZE
+Used functions and strings:
+ROOM-CHECK 7901
+
+V-SANALYZE
+Used functions and strings:
+
+PRE-SANALYZE
+Used functions and strings:
+PERFORM 4643
+
+V-AIM
+Used functions and strings:
+YOU-CANT 7326
+
+V-SAIM
+Used functions and strings:
+
+PRE-SAIM
+Used functions and strings:
+PERFORM 4643
+
+WHO-CARES
+Used functions and strings:
+HE-SHE-IT 6771
+
+ACCESSIBLE?
+Used functions and strings:
+ACCESSIBLE? 8032
+META-LOC 4626
+
+VISIBLE?
+Used functions and strings:
+VISIBLE? 8024
+SEE-INSIDE? 7929
+
+TOO-DARK
+Used functions and strings:
+
+TOO-BAD-BUT
+Used functions and strings:
+HE-SHE-IT 6771
+
+OKAY
+Used functions and strings:
+LIT? 1325
+HE-SHE-IT 6771
+
+NOT-CLEAR-WHOM
+Used functions and strings:
+
+ALREADY
+Used functions and strings:
+START-SENTENCE 6696
+
+ARENT-TALKING
+Used functions and strings:
+
+SEE-INSIDE?
+Used functions and strings:
+
+ROOM-CHECK
+Used functions and strings:
+NOT-HERE 4871
+PERFORM 4643
+META-LOC 4626
+
+CHECK-DOOR
+Used functions and strings:
+THIS-IS-IT 6733
+START-SENTENCE 6696
+
+CCOUNT
+Used functions and strings:
+
+ITAKE
+Used functions and strings:
+HE-SHE-IT 6771
+HIM-HER-IT 6823
+PRINT-THE 6674
+YOU-CANT 7326
+
+IDROP
+Used functions and strings:
+NOT-HOLDING? 7698
+
+HELD?
+Used functions and strings:
+
+HACK-HACK
+Used functions and strings:
+PICK-ONE 7694
+HIM-HER-IT 6823
+
+DIR-FROM-TEST
+Used functions and strings:
+
+DIR-FROM
+Used functions and strings:
+
+FRIEND-FOLLOWS-YOU
+Used functions and strings:
+PICK-ONE 7694
+
+MAKE-ALL-PEOPLE
+Used functions and strings:
+
+GOTO
+Used functions and strings:
+
+NOT-HOLDING?
+Used functions and strings:
+HIM-HER-IT 6823
+HE-SHE-IT 6771
+
+PICK-ONE
+Used functions and strings:
+
+PICK-ONE-NEW
+Used functions and strings:
+
+WONT-HELP
+Used functions and strings:
+
+IMPOSSIBLE
+Used functions and strings:
+
+HAR-HAR
+Used functions and strings:
+
+DESCRIBE-ROOM
+Used functions and strings:
+THIS-IS-IT 6733
+PRINT-THE 6674
+
+SEE-ANYTHING-IN?
+Used functions and strings:
+
+DESCRIBE-OBJECTS
+Used functions and strings:
+PRINT-CONTENTS 7366
+TELL-BEING-WORN 7359
+THIS-IS-IT 6733
+PRINT-THE 6674
+START-SENTENCE 6696
+
+PRINT-CONTENTS
+Used functions and strings:
+THIS-IS-IT 6733
+TELL-BEING-WORN 7359
+PRINT-THE 6674
+
+TELL-BEING-WORN
+Used functions and strings:
+
+YOU-CANT
+Used functions and strings:
+PRINT-THE 6674
+OUTSIDE? 6376
+VERB-PRINT 6918
+HE-SHE-IT 6771
+
+NO-NEED
+Used functions and strings:
+PRINT-THE 6674
+VERB-PRINT 6918
+HE-SHE-IT 6771
+
+V-SCORE
+Used functions and strings:
+
+V-VERSION
+Used functions and strings:
+
+V-FIRST-LOOK
+Used functions and strings:
+
+V-RESTORE
+Used functions and strings:
+TELL-FAILED 7213
+
+V-SAVE
+Used functions and strings:
+TELL-FAILED 7213
+V-$REFRESH 5022
+
+TELL-FAILED
+Used functions and strings:
+
+V-RESTART
+Used functions and strings:
+YES? 5900
+
+V-QUIT
+Used functions and strings:
+YES? 5900
+
+V-INVENTORY
+Used functions and strings:
+HE-SHE-IT 6771
+
+V-VERBOSE
+Used functions and strings:
+YOU-WILL-GET 7136
+
+V-BRIEF
+Used functions and strings:
+YOU-WILL-GET 7136
+
+V-SUPER-BRIEF
+Used functions and strings:
+YOU-WILL-GET 7136
+
+YOU-WILL-GET
+Used functions and strings:
+
+V-$UNRECORD
+Used functions and strings:
+
+V-$RECORD
+Used functions and strings:
+
+V-$RANDOM
+Used functions and strings:
+
+V-$COMMAND
+Used functions and strings:
+
+V-$QUEUE
+Used functions and strings:
+
+V-$CHEAT
+Used functions and strings:
+YES? 5900
+
+V-$VERIFY
+Used functions and strings:
+DONT-UNDERSTAND 5485
+
+V-$ID
+Used functions and strings:
+
+V-UNSCRIPT
+Used functions and strings:
+TRANSCRIPT 7015
+
+V-SCRIPT
+Used functions and strings:
+TRANSCRIPT 7015
+
+TRANSCRIPT
+Used functions and strings:
+
+CLOCKER
+Used functions and strings:
+
+INT
+Used functions and strings:
+
+QUEUE
+Used functions and strings:
+
+TITLE-NOUN?
+Used functions and strings:
+
+CAPITAL-NOUN?
+Used functions and strings:
+
+NOT-IT
+Used functions and strings:
+
+VERB-PRINT
+Used functions and strings:
+WORD-PRINT 1451
+
+NOT-FOUND
+Used functions and strings:
+HIM-HER-IT 6823
+
+DONT-F
+Used functions and strings:
+
+I-PROMPT
+Used functions and strings:
+
+HIM-HER-IT
+Used functions and strings:
+NO-PRONOUN? 6750
+
+HE-SHE-IT
+Used functions and strings:
+NO-PRONOUN? 6750
+
+NO-PRONOUN?
+Used functions and strings:
+THIS-IS-IT 6733
+START-SENTENCE 6696
+PRINT-THE 6674
+
+THIS-IS-IT
+Used functions and strings:
+
+PRINTA
+Used functions and strings:
+
+START-SENTENCE
+Used functions and strings:
+
+THE?
+Used functions and strings:
+
+PRINT-THE
+Used functions and strings:
+
+INTRO
+Used functions and strings:
+
+GO
+Used functions and strings:
+MAIN-LOOP 1060
+INIT-STATUS-LINE 109
+
+SPEAKING-VERB?
+Used functions and strings:
+
+SEE-VERB?
+Used functions and strings:
+
+V-TAKE?
+Used functions and strings:
+
+PRE-TAKE?
+Used functions and strings:
+
+V-DISEMBARK?
+Used functions and strings:
+TELL-THE 232
+PERFORM 4643
+
+V-DROP?
+Used functions and strings:
+
+PRE-DROP?
+Used functions and strings:
+PERFORM 4643
+
+V-MUST?
+Used functions and strings:
+WHO-KNOWS 6436
+
+V-WILL?
+Used functions and strings:
+WHO-KNOWS 6436
+
+V-MIGHT?
+Used functions and strings:
+WHO-KNOWS 6436
+
+V-SHOULD?
+Used functions and strings:
+WHO-KNOWS 6436
+
+V-WOULD?
+Used functions and strings:
+WHO-KNOWS 6436
+
+V-COULD?
+Used functions and strings:
+WHO-KNOWS 6436
+
+V-DO?
+Used functions and strings:
+WHO-KNOWS 6436
+ECHO-NOUNS 6522
+TELL-THE 232
+MORE-SPECIFIC 4521
+TRY-QCONTEXT? 6077
+
+V-MAY?
+Used functions and strings:
+WHO-KNOWS 6436
+
+V-CAN?
+Used functions and strings:
+WHO-KNOWS 6436
+
+ECHO-NOUNS
+Used functions and strings:
+TELL-THE 232
+
+WHO-KNOWS
+Used functions and strings:
+TELL-THE 232
+TELL-Q-WORD 6064
+DETERMINE-OBJ 2674
+GET-SYNTAX 2303
+
+V-STATEMENT
+Used functions and strings:
+
+IS-PRSO-ADJ?
+Used functions and strings:
+
+PRINT-IS/ARE
+Used functions and strings:
+
+PRSO-IS
+Used functions and strings:
+TELL-THE 232
+TELL-CTHE 247
+
+ALIVE?
+Used functions and strings:
+
+DEAD?
+Used functions and strings:
+
+UNLOCKED?
+Used functions and strings:
+
+LOCKED?
+Used functions and strings:
+
+Q-CLOSED?
+Used functions and strings:
+
+OPEN?
+Used functions and strings:
+
+OUTSIDE?
+Used functions and strings:
+
+QUIET?
+Used functions and strings:
+
+V-HOW
+Used functions and strings:
+V-BE 6101
+MORE-SPECIFIC 4521
+
+V-WHY
+Used functions and strings:
+V-BE 6101
+MORE-SPECIFIC 4521
+
+V-WHEN
+Used functions and strings:
+V-BE 6101
+MORE-SPECIFIC 4521
+
+V-WHERE
+Used functions and strings:
+V-BE 6101
+MORE-SPECIFIC 4521
+
+PRE-WHERE
+Used functions and strings:
+PERFORM 4643
+
+V-WHAT
+Used functions and strings:
+V-WHO 6339
+
+V-WHO
+Used functions and strings:
+V-BE 6101
+TELL-THE 232
+MORE-SPECIFIC 4521
+
+V-BE?
+Used functions and strings:
+V-BE 6101
+
+RIGHT-PREP?
+Used functions and strings:
+
+V-BE
+Used functions and strings:
+META-LOC 4626
+NP-PRINT 5713
+P-PP-OBJ 4321
+P-PP-PREP 4329
+TELL-THE 232
+TELL-CTHE 247
+TELL-Q-WORD 6064
+TRY-QCONTEXT? 6077
+
+PRE-BE
+Used functions and strings:
+TRY-QCONTEXT? 6077
+
+TRY-QCONTEXT?
+Used functions and strings:
+PERFORM 4643
+
+TELL-Q-WORD
+Used functions and strings:
+
+WHAT-F
+Used functions and strings:
+PERFORM 4643
+P-PP-PREP 4329
+P-PP-OBJ 4321
+EVERYWHERE-VERB? 1923
+
+INSERT-ADJS-WD
+Used functions and strings:
+INBUF-PRINT 5872
+MAKE-ROOM-FOR-TOKENS 4976
+
+INSERT-ADJS
+Used functions and strings:
+PMEM? 73
+
+SETUP-ORPHAN-NP
+Used functions and strings:
+
+YES?
+Used functions and strings:
+
+INBUF-PRINT
+Used functions and strings:
+
+INBUF-ADD
+Used functions and strings:
+
+TOO-MANY-NOUNS
+Used functions and strings:
+
+ADJS-PRINT
+Used functions and strings:
+CAPITALIZE 5183
+NP-PRINT 5713
+
+NP-PRINT
+Used functions and strings:
+PMEM? 73
+BUFFER-PRINT 5102
+GET-QUANTITY-WORD 3660
+NP-PRINT 5713
+TELL-THE 232
+
+WHICH-PRINT
+Used functions and strings:
+TELL-THE 232
+WHICH-LIST? 5634
+WINNER-SAYS-WHICH? 5633
+GET-NP 4908
+
+WHICH-LIST?
+Used functions and strings:
+
+WINNER-SAYS-WHICH?
+Used functions and strings:
+
+NP-CANT-SEE
+Used functions and strings:
+MORE-SPECIFIC 4521
+TELL-THE 232
+TELL-CTHE 247
+GET-NP 4908
+
+CANT-FIND-OBJECT
+Used functions and strings:
+
+MISSING
+Used functions and strings:
+
+DONT-UNDERSTAND
+Used functions and strings:
+
+CHANGE-AND-TO-THEN?
+Used functions and strings:
+
+NAKED-ADJECTIVE?
+Used functions and strings:
+
+PRINT-PARSER-FAILURE
+Used functions and strings:
+PARSE-IT 567
+PRINT-LEXV 5028
+CHANGE-LEXV 1653
+CANT-USE-MULTIPLE 4962
+ROOT-VERB 2377
+TELL-THE 232
+MAKE-ROOM-FOR-TOKENS 4976
+
+CAPITALIZE
+Used functions and strings:
+WORD-PRINT 1451
+
+BUFFER-PRINT
+Used functions and strings:
+WORD-PRINT 1451
+
+COPY-INPUT
+Used functions and strings:
+PRINT-LEXV 5028
+
+PRINT-LEXV
+Used functions and strings:
+BE-PATIENT 1029
+
+V-$REFRESH
+Used functions and strings:
+INIT-STATUS-LINE 109
+
+REPLACE-ONE-TOKEN
+Used functions and strings:
+TOO-MANY-NEW 4926
+MAKE-ROOM-FOR-TOKENS 4976
+
+MAKE-ROOM-FOR-TOKENS
+Used functions and strings:
+TOO-MANY-NEW 4926
+
+CANT-USE-MULTIPLE
+Used functions and strings:
+
+CANT-AGAIN
+Used functions and strings:
+
+CANT-OOPS
+Used functions and strings:
+
+NAKED-OOPS
+Used functions and strings:
+
+TOO-MANY-NEW
+Used functions and strings:
+
+NOUN-USED?
+Used functions and strings:
+GET-NP 4908
+
+GET-NP
+Used functions and strings:
+
+GET-OWNER
+Used functions and strings:
+
+NOT-HERE
+Used functions and strings:
+TELL-THE 232
+
+D-APPLY
+Used functions and strings:
+
+TELL-D-LOC
+Used functions and strings:
+
+ITAKE-CHECK
+Used functions and strings:
+TELL-THE 232
+TELL-CTHE 247
+
+TELL-TOO-DARK
+Used functions and strings:
+
+PERFORM
+Used functions and strings:
+NO-M-WINNER-VERB? 4601
+
+CANT-UNDO
+Used functions and strings:
+
+META-LOC
+Used functions and strings:
+
+QCONTEXT-GOOD?
+Used functions and strings:
+
+TELL-SAID-TO
+Used functions and strings:
+
+FIND-A-WINNER
+Used functions and strings:
+
+NO-M-WINNER-VERB?
+Used functions and strings:
+
+TELL-PRONOUN
+Used functions and strings:
+TELL-THE 232
+
+FIX-HIM-HER-IT
+Used functions and strings:
+EVERYWHERE-VERB? 1923
+MORE-SPECIFIC 4521
+
+VERB-ALL-TEST
+Used functions and strings:
+
+V-PDEBUG
+Used functions and strings:
+
+MORE-SPECIFIC
+Used functions and strings:
+
+INSERT-WHAT
+Used functions and strings:
+
+RED-CANDO
+Used functions and strings:
+GET-SYNTAX 2303
+PMEM? 73
+PARSER-ERROR 1566
+DETERMINE-OBJ 2674
+
+RED-NOT
+Used functions and strings:
+
+RED-BE
+Used functions and strings:
+
+RED-SQBN
+Used functions and strings:
+DETERMINE-SUBJ 4050
+
+P-PP-PREP
+Used functions and strings:
+
+P-PP-OBJ
+Used functions and strings:
+
+RED-SNBAP
+Used functions and strings:
+DETERMINE-OBJ 2674
+REDUCE-LOCATION 2583
+DO-PMEM-ALLOC 85
+DETERMINE-SUBJ 4050
+
+RED-SNBP
+Used functions and strings:
+REDUCE-LOCATION 2583
+DO-PMEM-ALLOC 85
+DETERMINE-SUBJ 4050
+
+RED-SBNP
+Used functions and strings:
+EXCH-4-5-Q 3952
+
+RED-SNBA
+Used functions and strings:
+DO-PMEM-ALLOC 85
+DETERMINE-SUBJ 4050
+
+RED-SBNA
+Used functions and strings:
+EXCH-4-5-Q 3952
+
+DETERMINE-SUBJ
+Used functions and strings:
+DETERMINE-OBJ 2674
+GET-SYNTAX 2303
+PARSER-ERROR 1566
+
+RED-SNBN
+Used functions and strings:
+PARSER-ERROR 1566
+DETERMINE-OBJ 2674
+
+RED-SBNN
+Used functions and strings:
+EXCH-4-5-Q 3952
+
+EXCH-4-5-Q
+Used functions and strings:
+PMEM? 73
+
+RED-BE-FORM
+Used functions and strings:
+
+RED-QUOTE
+Used functions and strings:
+DO-PMEM-ALLOC 85
+
+RED-ADJ
+Used functions and strings:
+DO-PMEM-ALLOC 85
+
+RED-ADJS
+Used functions and strings:
+PMEM? 73
+DO-PMEM-ALLOC 85
+
+RED-POSS
+Used functions and strings:
+PARSER-ERROR 1566
+
+RED-PP
+Used functions and strings:
+DO-PMEM-ALLOC 85
+
+RED-NPP
+Used functions and strings:
+DO-PMEM-ALLOC 85
+REDUCE-LOCATION 2583
+REDUCE-EXCEPTION 2554
+PMEM? 73
+PARSER-ERROR 1566
+
+RED-QN
+Used functions and strings:
+GET-QUANTITY 3664
+
+GET-QUANTITY
+Used functions and strings:
+
+GET-QUANTITY-WORD
+Used functions and strings:
+
+RED-QT
+Used functions and strings:
+DO-PMEM-ALLOC 85
+
+RED-OF
+Used functions and strings:
+
+RED-NP
+Used functions and strings:
+DO-PMEM-ALLOC 85
+
+RED-VP
+Used functions and strings:
+
+HACK-TELL-1
+Used functions and strings:
+BE-PATIENT 1029
+PERF-MANY 1294
+
+HACK-TELL
+Used functions and strings:
+IGNORE-FIRST-WORD 1366
+PARSER-ERROR 1566
+DETERMINE-OBJ 2674
+GET-SYNTAX 2303
+
+RED-PERS
+Used functions and strings:
+
+RED-O-NP
+Used functions and strings:
+INSERT-NP 3210
+RED-O-ADJ 3164
+TEST-SR 3249
+
+TEST-O-SR
+Used functions and strings:
+MATCH-OBJECT 1759
+
+TEST-SR
+Used functions and strings:
+NUMERIC-ADJ? 2845
+DO-PMEM-ALLOC 85
+
+INSERT-NP
+Used functions and strings:
+
+RED-O-PP
+Used functions and strings:
+
+RED-O-ADJ
+Used functions and strings:
+
+DO-ORPHAN-TEST
+Used functions and strings:
+
+DETERMINE-NP-XFER
+Used functions and strings:
+
+READY-TO-DISAMBIGUATE?
+Used functions and strings:
+
+FIND-OWNERS
+Used functions and strings:
+FIND-OWNERS 3119
+MATCH-OBJECT 1759
+
+DET-NP-OWNEE?
+Used functions and strings:
+
+DET-NP-NOT-HERE?
+Used functions and strings:
+
+DETERMINE-NP
+Used functions and strings:
+CHECK-DIR-ADJS 2810
+DO-PMEM-ALLOC 85
+FIND-OBJECTS 2040
+NUMERIC-ADJ? 2845
+PMEM? 73
+PARSER-ERROR 1566
+
+NUMERIC-ADJ?
+Used functions and strings:
+
+CHECK-DIR-ADJS
+Used functions and strings:
+MATCH-OBJECT 1759
+
+DETERMINE-OBJ
+Used functions and strings:
+PARSER-ERROR 1566
+DO-PMEM-ALLOC 85
+FIND-OBJECTS 2040
+
+REDUCE-LOCATION
+Used functions and strings:
+PARSER-ERROR 1566
+DO-PMEM-ALLOC 85
+FIND-OBJECTS 2040
+
+REDUCE-EXCEPTION
+Used functions and strings:
+PARSER-ERROR 1566
+DO-PMEM-ALLOC 85
+REDUCE-EXCEPT-IT 2545
+IREDUCE-EXCEPTION 2534
+
+REDUCE-EXCEPT-IT
+Used functions and strings:
+PARSER-ERROR 1566
+
+IREDUCE-EXCEPTION
+Used functions and strings:
+
+RED-SP
+Used functions and strings:
+
+RED-SVD
+Used functions and strings:
+RED-SD 470
+
+RED-SVPNPN
+Used functions and strings:
+DIR-VERB-PRSI? 2275
+GET-SYNTAX 2303
+PARSER-ERROR 1566
+ROOT-VERB 2377
+
+SVN
+Used functions and strings:
+RED-SD 470
+PARSER-ERROR 1566
+GET-SYNTAX 2303
+
+RED-SVN
+Used functions and strings:
+ROOT-VERB 2377
+
+ROOT-VERB
+Used functions and strings:
+
+RED-SV
+Used functions and strings:
+GET-SYNTAX 2303
+
+GET-SYNTAX
+Used functions and strings:
+
+RED-PART
+Used functions and strings:
+
+RED-FCN
+Used functions and strings:
+
+DIR-VERB-PRSI?
+Used functions and strings:
+
+TEST-THINGS
+Used functions and strings:
+ADD-OBJECT 1859
+
+FIND-OBJECTS
+Used functions and strings:
+FIND-OBJECTS 2040
+EXCLUDE-HERE-OBJECT? 2039
+SEARCH-IN-LG? 2038
+MATCH-OBJECT 1759
+DO-PMEM-ALLOC 85
+FIND-DESCENDANTS 1711
+
+EXCLUDE-HERE-OBJECT?
+Used functions and strings:
+
+SEARCH-IN-LG?
+Used functions and strings:
+
+CHECK-ADJS
+Used functions and strings:
+CHECK-ADJS-THERE? 1954
+
+CHECK-ADJS-THERE?
+Used functions and strings:
+
+MULTIPLE-EXCEPTION?
+Used functions and strings:
+EVERYWHERE-VERB? 1923
+
+EVERYWHERE-VERB?
+Used functions and strings:
+
+NOT-IN-FIND-RES?
+Used functions and strings:
+DO-PMEM-ALLOC 85
+
+ADD-OBJECT
+Used functions and strings:
+
+TEST-OBJECT
+Used functions and strings:
+
+MATCH-OBJECT
+Used functions and strings:
+INVALID-OBJECT? 1758
+EXCLUDED? 1739
+
+INVALID-OBJECT?
+Used functions and strings:
+
+EXCLUDED?
+Used functions and strings:
+
+FIND-DESCENDANTS
+Used functions and strings:
+FIND-DESCENDANTS 1711
+
+DO-IT-AGAIN
+Used functions and strings:
+
+TELL-GWIM-MSG
+Used functions and strings:
+TELL-THE 232
+
+CHANGE-LEXV
+Used functions and strings:
+
+NUMBER?
+Used functions and strings:
+
+BUZZER-WORD?
+Used functions and strings:
+
+PARSER-ERROR
+Used functions and strings:
+NP-SAVE 1528
+PMEM? 73
+
+NP-SAVE
+Used functions and strings:
+
+DO-AGAIN
+Used functions and strings:
+
+DO-OOPS
+Used functions and strings:
+
+WORD-PRINT
+Used functions and strings:
+
+UNKNOWN-WORD
+Used functions and strings:
+
+BEG-PARDON
+Used functions and strings:
+
+P-NO-MEM-ROUTINE
+Used functions and strings:
+
+MAIN-LOOP-IT
+Used functions and strings:
+
+FIX-QUOTATIONS
+Used functions and strings:
+
+IGNORE-FIRST-WORD
+Used functions and strings:
+
+LIT?
+Used functions and strings:
+
+QCONTEXT-CHECK
+Used functions and strings:
+
+PERF-MANY
+Used functions and strings:
+
+MAIN-LOOP-1
+Used functions and strings:
+GAME-VERB? 463
+PARSER 289
+
+MAIN-LOOP
+Used functions and strings:
+
+BE-PATIENT
+Used functions and strings:
+
+GET-NONTERMINAL-ACTION
+Used functions and strings:
+
+GET-TERMINAL-ACTION
+Used functions and strings:
+
+PARSE-SENTENCE
+Used functions and strings:
+P-P 490
+PEEK-PSTACK 64
+
+PARSE-IT
+Used functions and strings:
+PMEM-RESET 77
+
+P-P
+Used functions and strings:
+P-P 490
+PMEM? 73
+
+RED-SD
+Used functions and strings:
+DO-PMEM-ALLOC 85
+
+GAME-VERB?
+Used functions and strings:
+
+PARSER
+Used functions and strings:
+TELL-THE 232
+NAKED-DIR? 262
+EXPAND-BE-CONTRACTIONS 164
+READ-INPUT 140
+UPDATE-STATUS-LINE 115
+PMEM-RESET 77
+
+NAKED-DIR?
+Used functions and strings:
+
+TELL-CTHE
+Used functions and strings:
+TELL-CTHE 247
+
+TELL-THE
+Used functions and strings:
+TELL-THE 232
+
+EXPAND-BE-CONTRACTIONS
+Used functions and strings:
+SPECIAL-CONTRACTION? 163
+
+SPECIAL-CONTRACTION?
+Used functions and strings:
+
+SCRIPT-INBUF
+Used functions and strings:
+
+READ-INPUT
+Used functions and strings:
+
+DIGITS
+Used functions and strings:
+
+UPDATE-STATUS-LINE
+Used functions and strings:
+
+INIT-STATUS-LINE
+Used functions and strings:
+
+DO-PMEM-ALLOC
+Used functions and strings:
+
+PMEM-RESET
+Used functions and strings:
+
+PMEM?
+Used functions and strings:
+
+PEEK-PSTACK
+Used functions and strings:
+

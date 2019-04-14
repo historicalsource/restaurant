@@ -1,0 +1,357 @@
+ZILCH of 3/22/89 12:16
+
+Combined ZIL Compiler Ver 2.0 (MIM)
+-----------------------------------
+Input file: /USR/DEVELOPMENT/OLD/H2/H2.ZIL
+[Zaps always go to current directory]
+
+[YZIP instructions]
+
+Loading /USR/DEVELOPMENT/OLD/H2/DEFS.ZIL and compiling it.
+XFLOAD /USR/DEVELOPMENT/INTERLOGIC/ZILLIB/PARSER/PARSER.H2.
+Loading /USR/DEVELOPMENT/INTERLOGIC/ZILLIB/CONSTANTS.ZIL and compiling it.
+Loading abstract /USR/DEVELOPMENT/OLD/H2/PSTACK.ZABSTR.
+Start segment 0
+End segment 0
+Loading abstract /USR/DEVELOPMENT/OLD/H2/PMEM.ZABSTR.
+Start segment 0
+End segment 0
+Loading /USR/DEVELOPMENT/INTERLOGIC/ZILLIB/PARSER/PDEFS.ZIL and compiling it.
+Loading /USR/DEVELOPMENT/INTERLOGIC/ZILLIB/PARSER/PARSER.ZIL and compiling it.
+
+Start segment 0
+Compiling routine: INIT-STATUS-LINE
+Compiling routine: UPDATE-STATUS-LINE
+Compiling routine: DIGITS
+Compiling routine: READ-INPUT
+Compiling routine: SCRIPT-INBUF
+Compiling routine: SPECIAL-CONTRACTION?
+Compiling routine: EXPAND-BE-CONTRACTIONS
+Compiling routine: TELL-THE
+Compiling routine: TELL-CTHE
+Compiling routine: NAKED-DIR?
+Compiling routine: PARSER
+Compiling routine: GAME-VERB?
+Compiling routine: RED-SD
+Compiling routine: P-P
+Compiling routine: PARSE-IT
+Compiling routine: PARSE-SENTENCE
+Compiling routine: GET-TERMINAL-ACTION
+Compiling routine: GET-NONTERMINAL-ACTION
+Compiling routine: BE-PATIENT
+Compiling routine: MAIN-LOOP
+Compiling routine: MAIN-LOOP-1
+Compiling routine: PERF-MANY
+Compiling routine: QCONTEXT-CHECK
+Compiling routine: LIT?
+Compiling routine: IGNORE-FIRST-WORD
+Compiling routine: FIX-QUOTATIONS
+Compiling routine: MAIN-LOOP-IT
+Compiling routine: P-NO-MEM-ROUTINE
+Compiling routine: BEG-PARDON
+Compiling routine: UNKNOWN-WORD
+Compiling routine: WORD-PRINT
+Compiling routine: DO-OOPS
+Compiling routine: DO-AGAIN
+Compiling routine: NP-SAVE
+Compiling routine: PARSER-ERROR
+Compiling routine: BUZZER-WORD?
+Compiling routine: NUMBER?
+Compiling routine: CHANGE-LEXV
+Compiling routine: TELL-GWIM-MSG
+Compiling routine: DO-IT-AGAIN
+End segment 0
+Abstracting PARSER to /USR/DEVELOPMENT/OLD/H2/PARSER.
+Loading abstract /USR/DEVELOPMENT/OLD/H2/FIND.ZABSTR.
+Start segment 0
+End segment 0
+Loading /USR/DEVELOPMENT/INTERLOGIC/ZILLIB/PARSER/REDS.ZIL and compiling it.
+
+Start segment 0
+Compiling routine: DIR-VERB-PRSI?
+Compiling routine: RED-FCN
+Compiling routine: RED-PART
+Compiling routine: GET-SYNTAX
+Compiling routine: RED-SV
+Compiling routine: ROOT-VERB
+Compiling routine: RED-SVN
+Compiling routine: SVN
+Compiling routine: RED-SVPNPN
+Compiling routine: RED-SVD
+Compiling routine: RED-SP
+Compiling routine: IREDUCE-EXCEPTION
+Compiling routine: REDUCE-EXCEPT-IT
+Compiling routine: REDUCE-EXCEPTION
+Compiling routine: REDUCE-LOCATION
+Compiling routine: DETERMINE-OBJ
+Compiling routine: CHECK-DIR-ADJS
+Compiling routine: NUMERIC-ADJ?
+Compiling routine: DETERMINE-NP
+Compiling routine: DET-NP-NOT-HERE?
+Compiling routine: DET-NP-OWNEE?
+Compiling routine: FIND-OWNERS
+Compiling routine: READY-TO-DISAMBIGUATE?
+Compiling routine: DETERMINE-NP-XFER
+Compiling routine: DO-ORPHAN-TEST
+Compiling routine: RED-O-ADJ
+Compiling routine: RED-O-PP
+Compiling routine: INSERT-NP
+Compiling routine: TEST-SR
+Compiling routine: TEST-O-SR
+Compiling routine: RED-O-NP
+Compiling routine: RED-PERS
+Compiling routine: HACK-TELL
+Compiling routine: HACK-TELL-1
+Compiling routine: RED-VP
+Compiling routine: RED-NP
+Compiling routine: RED-OF
+Compiling routine: RED-QT
+Compiling routine: GET-QUANTITY-WORD
+Compiling routine: GET-QUANTITY
+Compiling routine: RED-QN
+Compiling routine: RED-NPP
+Compiling routine: RED-PP
+Compiling routine: RED-POSS
+Compiling routine: RED-ADJS
+Compiling routine: RED-ADJ
+Compiling routine: RED-QUOTE
+End segment 0
+Abstracting REDS to /USR/DEVELOPMENT/OLD/H2/REDS.
+Loading /USR/DEVELOPMENT/INTERLOGIC/ZILLIB/PARSER/BREDS.ZIL and compiling it.
+
+Start segment 0
+Compiling routine: RED-BE-FORM
+Compiling routine: EXCH-4-5-Q
+Compiling routine: RED-SBNN
+Compiling routine: RED-SNBN
+Compiling routine: DETERMINE-SUBJ
+Compiling routine: RED-SBNA
+Compiling routine: RED-SNBA
+Compiling routine: RED-SBNP
+Compiling routine: RED-SNBP
+Compiling routine: RED-SNBAP
+Compiling routine: P-PP-OBJ
+Compiling routine: P-PP-PREP
+Compiling routine: RED-SQBN
+Compiling routine: RED-BE
+Compiling routine: RED-NOT
+Compiling routine: RED-CANDO
+Compiling routine: INSERT-WHAT
+End segment 0
+Abstracting BREDS to /USR/DEVELOPMENT/OLD/H2/BREDS.
+Loading /USR/DEVELOPMENT/INTERLOGIC/ZILLIB/PARSER/GRAM.ZIL and compiling it.
+Loading abstract /USR/DEVELOPMENT/OLD/H2/TOP.ZABSTR.
+Start segment 0
+End segment 0
+Loading /USR/DEVELOPMENT/INTERLOGIC/ZILLIB/PARSER/PRARE.ZIL and compiling it.
+
+Start segment 0
+Compiling routine: TOO-MANY-NEW
+Compiling routine: NAKED-OOPS
+Compiling routine: CANT-OOPS
+Compiling routine: CANT-AGAIN
+Compiling routine: CANT-USE-MULTIPLE
+Compiling routine: MAKE-ROOM-FOR-TOKENS
+Compiling routine: REPLACE-ONE-TOKEN
+Compiling routine: V-$REFRESH
+Compiling routine: PRINT-LEXV
+Compiling routine: COPY-INPUT
+End segment 0
+Start segment 0
+Compiling routine: BUFFER-PRINT
+Compiling routine: CAPITALIZE
+Compiling routine: PRINT-PARSER-FAILURE
+Compiling routine: NAKED-ADJECTIVE?
+Compiling routine: CHANGE-AND-TO-THEN?
+Compiling routine: DONT-UNDERSTAND
+Compiling routine: MISSING
+Compiling routine: CANT-FIND-OBJECT
+Compiling routine: NP-CANT-SEE
+Compiling routine: WINNER-SAYS-WHICH?
+Compiling routine: WHICH-LIST?
+Compiling routine: WHICH-PRINT
+Compiling routine: NP-PRINT
+Compiling routine: ADJS-PRINT
+Compiling routine: TOO-MANY-NOUNS
+Compiling routine: INBUF-ADD
+Compiling routine: INBUF-PRINT
+Compiling routine: YES?
+Compiling routine: SETUP-ORPHAN-NP
+Compiling routine: INSERT-ADJS
+Compiling routine: INSERT-ADJS-WD
+End segment 0
+Abstracting PRARE to /USR/DEVELOPMENT/OLD/H2/PRARE.
+Loading /USR/DEVELOPMENT/INTERLOGIC/ZILLIB/PARSER/QVERBS.ZIL and compiling it.
+
+Start segment 0
+Compiling routine: WHAT-F
+Compiling routine: TELL-Q-WORD
+Compiling routine: TRY-QCONTEXT?
+Compiling routine: PRE-BE
+Compiling routine: V-BE
+Compiling routine: RIGHT-PREP?
+Compiling routine: V-BE?
+Compiling routine: V-WHO
+Compiling routine: V-WHAT
+Compiling routine: PRE-WHERE
+Compiling routine: V-WHERE
+Compiling routine: V-WHEN
+Compiling routine: V-WHY
+Compiling routine: V-HOW
+Compiling routine: QUIET?
+Compiling routine: OUTSIDE?
+Compiling routine: OPEN?
+Compiling routine: Q-CLOSED?
+Compiling routine: LOCKED?
+Compiling routine: UNLOCKED?
+Compiling routine: DEAD?
+Compiling routine: ALIVE?
+Compiling routine: PRSO-IS
+Compiling routine: PRINT-IS/ARE
+Compiling routine: IS-PRSO-ADJ?
+Compiling routine: V-STATEMENT
+Compiling routine: WHO-KNOWS
+Compiling routine: ECHO-NOUNS
+Compiling routine: V-CAN?
+Compiling routine: V-MAY?
+Compiling routine: V-DO?
+Compiling routine: V-COULD?
+Compiling routine: V-WOULD?
+Compiling routine: V-SHOULD?
+Compiling routine: V-MIGHT?
+Compiling routine: V-WILL?
+Compiling routine: V-MUST?
+Compiling routine: PRE-DROP?
+Compiling routine: V-DROP?
+Compiling routine: V-DISEMBARK?
+Compiling routine: PRE-TAKE?
+Compiling routine: V-TAKE?
+End segment 0
+Abstracting QVERBS to /USR/DEVELOPMENT/OLD/H2/QVERBS.
+Loading /USR/DEVELOPMENT/OLD/H2/MACROS.ZIL and compiling it
+ because not abstracted.
+Compiling routine: SEE-VERB?
+Compiling routine: SPEAKING-VERB?
+Loading /USR/DEVELOPMENT/OLD/H2/MISC.ZIL and compiling it.
+Compiling routine: GO
+Compiling routine: INTRO
+Compiling routine: PRINT-THE
+Compiling routine: THE?
+Compiling routine: START-SENTENCE
+Compiling routine: PRINTA
+Compiling routine: THIS-IS-IT
+Compiling routine: NO-PRONOUN?
+Compiling routine: HE-SHE-IT
+Compiling routine: HIM-HER-IT
+Compiling routine: I-PROMPT
+Compiling routine: DONT-F
+Compiling routine: NOT-FOUND
+Compiling routine: VERB-PRINT
+Compiling routine: NOT-IT
+Compiling routine: CAPITAL-NOUN?
+Compiling routine: TITLE-NOUN?
+Compiling routine: QUEUE
+Compiling routine: INT
+Compiling routine: CLOCKER
+Abstracting MISC to /USR/DEVELOPMENT/OLD/H2/MISC.
+Loading /USR/DEVELOPMENT/OLD/H2/SYNTAX.ZIL and compiling it.
+Loading abstract /USR/DEVELOPMENT/OLD/H2/VERBS.ZABSTR.
+Loading abstract /USR/DEVELOPMENT/OLD/H2/THINGS.ZABSTR.
+Loading /USR/DEVELOPMENT/OLD/H2/PLACES.ZIL and compiling it.
+
+Compiling routine: DOOR-ROOM
+Compiling routine: FIND-IN
+Compiling routine: FIND-FLAG-NOT
+Compiling routine: FIND-FLAG-LG
+Compiling routine: FIND-FLAG-HERE
+Compiling routine: FIND-FLAG-HERE-NOT
+Compiling routine: UNIMPORTANT-THING-F
+Compiling routine: WINDOW-F
+Compiling routine: PUB-F
+Compiling routine: BEER-F
+Compiling routine: SANDWICH-F
+Abstracting PLACES to /USR/DEVELOPMENT/OLD/H2/PLACES.
+Loading abstract /USR/DEVELOPMENT/OLD/H2/MAGRATHEA.ZABSTR.
+Loading abstract /USR/DEVELOPMENT/OLD/H2/PEOPLE.ZABSTR.
+Loading abstract /USR/DEVELOPMENT/OLD/H2/GLOBAL.ZABSTR.
+ ** Warning: Undefined Routine: READ-DEMO
+ ** Warning: Never defined - PLURALBIT
+
+Warnings: 2
+ ** Note: OBJECT has no properties: INTQUOTE
+ ** Note: OBJECT has no properties: ROOMS
+ ** Note: OBJECT has no properties: WHALE-CRATER-BOX
+Vocabulary: 687
+
+Verbs: 139
+
+Real globals: 82
+
+AWAITING-REPLY		   OPRSO		      PMEM-STORE-POINTER
+C-INTS			   OTLEXV		      PMEM-STORE-WARN
+C-TABLE			   P-CAN-UNDO		      PMEM-STORE-WORDS
+CLOCK-WAIT		   P-CONT		      PMEM-WORDS-USED
+CLOCKER-RUNNING		   P-DBUG		      PRSA
+CURRENT-REDUCTION	   P-DIRECTION		      PRSI
+DEMO-VERSION?		   P-HER-OBJECT		      PRSI-NP
+DRUNK-LEVEL		   P-HIM-OBJECT		      PRSO
+ERROR-PRIORITY		   P-IT-OBJECT		      PRSO-NP
+ERROR-STRING		   P-LEN		      PRSQ
+FOLLOWER		   P-MULT		      PRSS
+FOUND-IT		   P-NOT-HERE		      QCONTEXT
+FOUND-LOC		   P-NUMBER		      SANDWICH-BOUGHT
+FUMBLE-NUMBER		   P-OFLAG		      SCORE
+FUMBLE-PROB		   P-OLEN		      SCREENWIDTH
+HERE			   P-PROMPT		      SEARCH-FLAGS
+HO-HUM			   P-PRSA-WORD		      SPLITS
+IDEBUG			   P-PRSI		      TLEXV
+IMPOSSIBLES		   P-PRSO		      TRAILS-ALONG
+ITEM-ON-SATCHEL		   P-RESPONDED		      VERBOSITY
+KEEP-WAITING		   P-RUNNING		      WASTES
+LAST-PSEUDO-LOC		   P-THEM-OBJECT	      WHO-CARES-TBL
+LIT			   P-WALK-DIR		      WHO-CARES-VERB
+MOVES			   P-WON		      WINNER
+NOW-PRSI		   P-WORD-NUMBER	      YAWNS
+OBJ-SWAP		   P-WORDS-AGAIN	      YUKS
+OHERE			   PARSE-SENTENCE-ACTIVATION
+OLD-HERE		   PARSER-RESULT
+
+Objects: 75
+
+BABEL-FISH	  GUIDE		    LIP4	      SMALL-BLUE-FROB
+BEER		  HANDS		    LOCAL-GLOBALS     STAIRS
+BIG-BLUE-FROB	  HATCH		    MARVIN	      TABLE-RANDOM
+BLIGHTED-GROUND	  HATCHWAY	    NOT-HERE-OBJECT   TEETH
+CHAIR		  HEAD		    OBJECT-OF-GAME    THEM
+DANGER		  HEART-OF-GOLD	    PLAYER	      THING
+DINNER		  HER		    PSEUDO-OBJECT     THIRD-PLANET
+EARS		  HIM		    PUB		      TOOTHBRUSH
+EYES		  INTADJ	    PUB-FURNISHINGS   TOWEL
+FLOOR		  INTDIR	    RAMP	      TRILLIAN
+FORD		  INTNUM	    RED-FROB	      TURN
+FRUSTATION	  INTPP		    ROOMS	      WALL
+GAME		  INTQUOTE	    SANDWICH	      WHALE-CRATER
+GARGLE-BLASTER	  IT		    SATCHEL	      WHALE-CRATER-BOX
+GENERIC-OBJECTS	  LEDGE		    SCC		      WHAT
+GLOBAL-HERE	  LIGHT-GLOBAL	    SCREWDRIVER	      WINDOW
+GLOBAL-OBJECTS	  LIP1		    SKY		      YOU
+GOWN		  LIP2		    SLEEP-GLOBAL      ZAPHOD
+GREEN-FROB	  LIP3		    SLEEVES
+
+Properties: 29
+
+P?ACTION     P?CONTFCN	  P?GENERIC    P?NE	    P?SE	 P?TEXT
+P?ADJACENT   P?DESCFCN	  P?GLOBAL     P?NORTH	    P?SIZE	 P?THINGS
+P?ADJECTIVE  P?DOWN	  P?IN	       P?NW	    P?SOUTH	 P?UP
+P?CAPACITY   P?EAST	  P?LDESC      P?OUT	    P?SW	 P?WEST
+P?CHARACTER  P?FDESC	  P?LINE       P?OWNER	    P?SYNONYM
+
+Flags: 39
+
+CONTBIT	     INVISIBLE	  ONBIT	       READBIT	    SURFACEBIT	 VOWELBIT
+DEAD	     LIGHTBIT	  ONLANDBIT    RLANDBIT	    TAKEBIT	 WEAPONBIT
+DOORBIT	     LOCKED	  OPENABLE     RMUNGBIT	    TOOLBIT	 WEARBIT
+DRINKBIT     MUNGBIT	  OPENBIT      ROOMSBIT	    TOUCHBIT	 WORNBIT
+EATBIT	     NARTICLEBIT  OUTSIDE      SEARCHBIT    TRANSBIT
+FEMALE	     NDESCBIT	  PERSONBIT    SECRETBIT    TRYTAKEBIT
+FEMALEBIT    NOTHEBIT	  PLURAL       SEENBIT	    VEHBIT
